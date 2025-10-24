@@ -28,6 +28,7 @@
       },
       "durability": 7,
       "integrity": 1,
+      "contexts": ["armor", "armor_chest"],
       "extract": {
         "primaryAttributes": {
           "minecraft:generic.armor": 0.5,
