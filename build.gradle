@@ -120,8 +120,14 @@ repositories {
     maven {
         url 'https://cursemaven.com'
     }
+    flatDir {
+        dir 'libs'
+    }
 }
 dependencies {
+    String materialContextLib = "blank:Tetra Material Overhaul-6.9.0:0.0.3"
+    modImplementation(materialContextLib)
+    jarJar(materialContextLib)
 
     runtimeOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.2.0-rc.2"))
     runtimeOnly("io.github.llamalad7:mixinextras-forge:0.2.0-rc.2")

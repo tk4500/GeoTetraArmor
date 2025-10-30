@@ -11,6 +11,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Equipable;
 import net.minecraft.world.item.ItemStack;
+import ovo.yiran.geotetraarmor.GeoTetraArmor;
 import ovo.yiran.geotetraarmor.model.ModularGeoArmorRenderer;
 import se.mickelus.tetra.items.modular.ItemModularHandheld;
 import se.mickelus.tetra.module.ItemModule;
@@ -32,13 +33,14 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-public class ModularArmorItem extends ItemModularHandheld implements GeoItem, Equipable {
+public abstract class ModularArmorItem extends ItemModularHandheld implements GeoItem, Equipable {
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
     public EquipmentSlot slot;
     public Cache<String, List<ModularGeoArmorRenderer>> rendererCache;
 
     public ModularArmorItem(EquipmentSlot slot, String repairName) {
         super(new Properties().stacksTo(1));
+        GeoTetraArmor.ITEM.add(this);
         this.slot = slot;
         this.rendererCache = CacheBuilder.newBuilder().maximumSize(1000L).expireAfterWrite(5L, TimeUnit.MINUTES).build();
         SchematicRegistry.instance.registerSchematic(new RepairSchematic(this, repairName));

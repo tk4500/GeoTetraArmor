@@ -2,6 +2,9 @@ package ovo.yiran.geotetraarmor.items;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ItemStack;
+import ovo.yiran.geotetraarmor.Config;
+import se.mickelus.mutil.network.PacketHandler;
+import se.mickelus.tetra.data.DataManager;
 import se.mickelus.tetra.gui.GuiModuleOffsets;
 import se.mickelus.tetra.items.modular.IModularItem;
 
@@ -11,6 +14,12 @@ public class ModularFeetItem extends ModularArmorItem {
         majorModuleKeys = new String[]{"feet/left", "feet/right"};
         minorModuleKeys = new String[]{"feet/extra"};
         requiredModules = new String[]{"feet/left", "feet/right"};
+    }
+
+    public void commonInit(PacketHandler packetHandler) {
+        DataManager.instance.synergyData.onReload(() -> this.synergies = DataManager.instance.synergyData.getOrdered("armor/feet"));
+        this.honeBase = Config.FeetHoneBase.get();
+        this.honeIntegrityMultiplier = Config.FeetHoneMultiplier.get();
     }
 
     @Override
@@ -28,6 +37,6 @@ public class ModularFeetItem extends ModularArmorItem {
 
     @Override
     public GuiModuleOffsets getMinorGuiOffsets(ItemStack itemStack) {
-        return new GuiModuleOffsets(-14,0);
+        return new GuiModuleOffsets(-14, 0);
     }
 }
