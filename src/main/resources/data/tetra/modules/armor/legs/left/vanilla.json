@@ -29,16 +29,16 @@
       "contexts": ["armor", "armor_legs"],
       "extract": {
         "primaryAttributes": {
-          "minecraft:generic.armor": 0.5,
-          "minecraft:generic.armor_toughness": 0.5
+          "minecraft:generic.armor": 0.02578,
+          "minecraft:generic.armor_toughness": 0.0339
         },
         "secondaryAttributes": {
-          "minecraft:generic.armor": 0.5,
-          "minecraft:generic.armor_toughness": 0.5
+          "minecraft:generic.armor": -0.00353,
+          "minecraft:generic.armor_toughness": -0.2678
         },
         "tertiaryAttributes": {
-          "minecraft:generic.armor": 0.5,
-          "minecraft:generic.armor_toughness": 0.5
+          "minecraft:generic.armor": 0.37818,
+          "minecraft:generic.armor_toughness": 0.3661
         },
         "primaryEffects":{},
         "secondaryEffects": {},

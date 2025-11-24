@@ -22,6 +22,7 @@
         "tetra:skin/",
         "tetra:scale/"
       ],
+      "countFactor": 2,
       "moduleKey": "armor/legs/belt/vanilla",
       "moduleVariant": "vanilla_legs_belt/"
     }

@@ -22,6 +22,7 @@
                 "tetra:skin/",
                 "tetra:scale/"
             ],
+            "countFactor": 3,
             "moduleKey": "armor/chest/base/vanilla",
             "moduleVariant": "vanilla_chest_base/"
         }

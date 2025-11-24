@@ -29,16 +29,16 @@
       "contexts": ["armor", "armor_chest"],
       "extract": {
         "primaryAttributes": {
-          "minecraft:generic.armor": 0.5,
-          "minecraft:generic.armor_toughness": 0.5
+          "minecraft:generic.armor": 0.1581,
+          "minecraft:generic.armor_toughness": 0.0581
         },
         "secondaryAttributes": {
-          "minecraft:generic.armor": 0.5,
-          "minecraft:generic.armor_toughness": 0.5
+          "minecraft:generic.armor": -0.1343,
+          "minecraft:generic.armor_toughness": -0.4591
         },
         "tertiaryAttributes": {
-          "minecraft:generic.armor": 0.5,
-          "minecraft:generic.armor_toughness": 0.5
+          "minecraft:generic.armor": 0.7637,
+          "minecraft:generic.armor_toughness": 0.6275
         },
         "primaryEffects":{},
         "secondaryEffects": {},
