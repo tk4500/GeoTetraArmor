@@ -18,18 +18,21 @@
       "durability": 7,
       "integrity": 1,
       "contexts": ["armor", "armor_feet"],
+      "attributes": {
+        "**minecraft:movement_speed": -0.05
+      },
       "extract": {
         "primaryAttributes": {
-          "minecraft:generic.armor": 0.5,
-          "minecraft:generic.armor_toughness": 0.5
+          "minecraft:generic.armor": 0.2142,
+          "minecraft:generic.armor_toughness": 0.0678
         },
         "secondaryAttributes": {
-          "minecraft:generic.armor": 0.5,
-          "minecraft:generic.armor_toughness": 0.5
+          "minecraft:generic.armor": -0.0536,
+          "minecraft:generic.armor_toughness": -0.5356
         },
         "tertiaryAttributes": {
-          "minecraft:generic.armor": 0.5,
-          "minecraft:generic.armor_toughness": 0.5
+          "minecraft:generic.armor": 0.0714,
+          "minecraft:generic.armor_toughness": 0.7321
         },
         "primaryEffects":{},
         "secondaryEffects": {},

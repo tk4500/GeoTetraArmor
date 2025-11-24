@@ -18,6 +18,7 @@
                 "tetra:metal/",
                 "tetra:bone/"
             ],
+            "countFactor": 3,
             "moduleKey": "armor/chest/base/heavy",
             "moduleVariant": "heavy_chest_base/"
         }
