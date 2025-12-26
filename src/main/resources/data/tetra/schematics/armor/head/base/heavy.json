@@ -10,13 +10,31 @@
         "textureX": 176,
         "textureY": 0
     },
+    "hone": false,
+    "rarity": "basic",
+    "applicableMaterials": [
+                "tetra:wood/",
+                "tetra:stone/",
+                "tetra:gem/",
+                "tetra:metal/",
+                "tetra:bone/",
+                "tetra:fabric/",
+                "tetra:fibre/",
+                "tetra:skin/",
+                "tetra:scale/"
+            ],
     "outcomes": [
         {
             "materials": [
                 "tetra:wood/",
+                "tetra:stone/",
                 "tetra:gem/",
                 "tetra:metal/",
-                "tetra:bone/"
+                "tetra:bone/",
+                "tetra:fabric/",
+                "tetra:fibre/",
+                "tetra:skin/",
+                "tetra:scale/"
             ],
             "countFactor": 2,
             "moduleKey": "armor/head/base/heavy",
