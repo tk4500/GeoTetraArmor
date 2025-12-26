@@ -5,16 +5,25 @@
     "chest/base"
   ],
   "improvements": [
-    "tetra:armor/shared/"
+    "tetra:armor/shared/",
+    "tetra:shared"
   ],
   "variants": [
     {
       "materials": [
         "tetra:wood/",
+        "tetra:stone/",
         "tetra:gem/",
         "tetra:metal/",
-        "tetra:bone/"
+        "tetra:bone/",
+        "tetra:fabric/",
+        "tetra:fibre/",
+        "tetra:skin/",
+        "tetra:scale/"
       ],
+      "durability": 4,
+      "durabilityMultiplier": 2,
+      "integrity": 1,
       "key": "heavy_chest_base/",
       "aspects": {
         "armor": 2,
@@ -22,24 +31,25 @@
         "wearable": 2,
         "breakable": 2
       },
-      "durability": 7,
-      "integrity": 1,
-      "contexts": ["armor", "armor_chest"],
+      "contexts": [
+        "armor",
+        "armor_chest"
+      ],
       "attributes": {
-        "**minecraft:movement_speed": -0.05
+        "**generic.movement_speed": -0.05
       },
       "extract": {
         "primaryAttributes": {
-          "minecraft:generic.armor": 0.3714,
-          "minecraft:generic.armor_toughness": 0.0857
+          "generic.armor": 0.3714,
+          "generic.armor_toughness": 0.0857
         },
         "secondaryAttributes": {
-          "minecraft:generic.armor": -0.1611,
-          "minecraft:generic.armor_toughness": -0.6557
+          "generic.armor": -0.1611,
+          "generic.armor_toughness": -0.6557
         },
         "tertiaryAttributes": {
-          "minecraft:generic.armor": 0.9164,
-          "minecraft:generic.armor_toughness": 0.9038
+          "generic.armor": 0.9164,
+          "generic.armor_toughness": 0.9038
         },
         "primaryEffects": {},
         "secondaryEffects": {},

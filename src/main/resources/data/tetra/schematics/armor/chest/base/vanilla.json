@@ -5,13 +5,12 @@
     ],
     "materialSlotCount": 1,
     "displayType": "major",
+    "rarity": "basic",
     "glyph": {
         "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
         "textureX": 48,
         "textureY": 0
     },
-    "hone": false,
-    "rarity": "basic",
     "applicableMaterials": [
                 "tetra:wood/",
                 "tetra:stone/",

@@ -1,67 +1,77 @@
 {
-  "replace": true,
-  "type": "tetra:basic_major_module",
-  "slots": ["chest/base"],
-  "improvements": [
-    "tetra:armor/shared/"
-  ],
-  "variants": [
-    {
-      "materials": [
-        "tetra:wood/",
-        "tetra:gem/",
-        "tetra:metal/",
-        "tetra:bone/",
-        "tetra:fabric/",
-        "tetra:fibre/",
-        "tetra:skin/",
-        "tetra:scale/"
-      ],
-      "key": "vanilla_chest_base/",
-      "aspects": {
-        "armor": 2,
-        "armor_chest": 2,
-        "wearable": 2,
-        "breakable": 2
-      },
-      "durability": 7,
-      "integrity": 1,
-      "contexts": ["armor", "armor_chest"],
-      "extract": {
-        "primaryAttributes": {
-          "minecraft:generic.armor": 0.1581,
-          "minecraft:generic.armor_toughness": 0.0581
-        },
-        "secondaryAttributes": {
-          "minecraft:generic.armor": -0.1343,
-          "minecraft:generic.armor_toughness": -0.4591
-        },
-        "tertiaryAttributes": {
-          "minecraft:generic.armor": 0.7637,
-          "minecraft:generic.armor_toughness": 0.6275
-        },
-        "primaryEffects":{},
-        "secondaryEffects": {},
-        "tertiaryEffects": {},
-        "durability": 0.3,
-        "integrity": 1,
-        "magicCapacity": 1,
-        "glyph": {
-          "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
-          "textureX": 48,
-          "textureY": 0
-        },
-        "availableTextures": [ "base" ],
-        "models": [
-          {
-            "type": "gecko",
-            "location": "geotetraarmor:item/armor/vanilla/"
-          },
-          {
-            "location": "geotetraarmor:item/module/armor/chest/"
-          }
-        ]
-      }
-    }
-  ]
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "chest/base"
+    ],
+    "improvements": [
+        "tetra:armor/shared/",
+        "tetra:shared"
+    ],
+    "variants": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/",
+                "tetra:gem/",
+                "tetra:metal/",
+                "tetra:bone/",
+                "tetra:fabric/",
+                "tetra:fibre/",
+                "tetra:skin/",
+                "tetra:scale/"
+            ],
+            "durability": 8,
+            "durabilityMultiplier": 1,
+            "integrity": 2,
+            "key": "vanilla_chest_base/",
+            "aspects": {
+                "armor": 2,
+                "armor_chest": 2,
+                "wearable": 2,
+                "breakable": 2
+            },
+            "contexts": [
+                "armor",
+                "armor_chest"
+            ],
+            "extract": {
+                "primaryAttributes": {
+                    "generic.armor": 0.1581,
+                    "generic.armor_toughness": 0.0581
+                },
+                "secondaryAttributes": {
+                    "generic.armor": -0.1343,
+                    "generic.armor_toughness": -0.4591
+                },
+                "tertiaryAttributes": {
+                    "generic.armor": 0.7637,
+                    "generic.armor_toughness": 0.6275
+                },
+                "primaryEffects": {},
+                "secondaryEffects": {},
+                "tertiaryEffects": {},
+                "durability": 0.6,
+                "integrity": 2,
+                "magicCapacity": 2,
+                "glyph": {
+                    "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+                    "textureX": 48,
+                    "textureY": 0
+                },
+                "availableTextures": [
+                    "base"
+                ],
+                "models": [
+                    {
+                        "type": "gecko",
+                        "location": "geotetraarmor:item/armor/vanilla/"
+                    },
+                    {
+                        "location": "geotetraarmor:item/module/armor/chest/"
+                    }
+                ]
+            }
+        }
+    ]
 }

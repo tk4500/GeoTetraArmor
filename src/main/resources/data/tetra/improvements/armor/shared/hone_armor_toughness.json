@@ -1,0 +1,46 @@
+[
+    {
+        "key": "hone_armor_toughness",
+        "level": 1,
+        "aspects": {
+            "honed": 1
+        },
+        "generic.armor_toughness": 1
+    },
+    {
+        "key": "hone_armor_toughness",
+        "level": 2,
+        "integrity": -1,
+        "aspects": {
+            "honed": 2
+        },
+        "generic.armor_toughness": 2
+    },
+    {
+        "key": "hone_armor_toughness",
+        "level": 3,
+        "integrity": -1,
+        "aspects": {
+            "honed": 3
+        },
+        "generic.armor_toughness": 3
+    },
+    {
+        "key": "hone_armor_toughness",
+        "level": 4,
+        "integrity": -2,
+        "aspects": {
+            "honed": 4
+        },
+        "generic.armor_toughness": 4
+    },
+    {
+        "key": "hone_armor_toughness",
+        "level": 5,
+        "integrity": -2,
+        "aspects": {
+            "honed": 5
+        },
+        "generic.armor_toughness": 5
+    }
+]
