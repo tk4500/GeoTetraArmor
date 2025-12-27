@@ -1,80 +1,84 @@
 {
-  "replace": true,
-  "type": "tetra:basic_major_module",
-  "slots": [
-    "chest/base"
-  ],
-  "improvements": [
-    "tetra:armor/shared/",
-    "tetra:shared"
-  ],
-  "variants": [
-    {
-      "materials": [
-        "tetra:wood/",
-        "tetra:stone/",
-        "tetra:gem/",
-        "tetra:metal/",
-        "tetra:bone/",
-        "tetra:fabric/",
-        "tetra:fibre/",
-        "tetra:skin/",
-        "tetra:scale/"
-      ],
-      "durability": 4,
-      "durabilityMultiplier": 2,
-      "integrity": 1,
-      "key": "heavy_chest_base/",
-      "aspects": {
-        "armor": 2,
-        "armor_chest": 2,
-        "wearable": 2,
-        "breakable": 2
-      },
-      "contexts": [
-        "armor",
-        "armor_chest"
-      ],
-      "attributes": {
-        "**generic.movement_speed": -0.05
-      },
-      "extract": {
-        "primaryAttributes": {
-          "generic.armor": 0.3714,
-          "generic.armor_toughness": 0.0857
-        },
-        "secondaryAttributes": {
-          "generic.armor": -0.1611,
-          "generic.armor_toughness": -0.6557
-        },
-        "tertiaryAttributes": {
-          "generic.armor": 0.9164,
-          "generic.armor_toughness": 0.9038
-        },
-        "primaryEffects": {},
-        "secondaryEffects": {},
-        "tertiaryEffects": {},
-        "durability": 0.3,
-        "integrity": 1,
-        "magicCapacity": 1,
-        "glyph": {
-          "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
-          "textureX": 48,
-          "textureY": 0
-        },
-        "availableTextures": [
-          "base"
-        ],
-        "models": [
-          {
-            "type": "gecko",
-            "location": "geotetraarmor:item/armor/heavy/"
-          },
-          {
-            "location": "geotetraarmor:item/module/armor/chest/"
-          }
-        ]
-      }
-    }
-  ]
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "chest/base"
+    ],
+    "improvements": [
+        "tetra:armor/shared/",
+        "tetra:shared"
+    ],
+    "variants": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/",
+                "tetra:gem/",
+                "tetra:metal/",
+                "tetra:bone/",
+                "tetra:fabric/",
+                "tetra:fibre/",
+                "tetra:skin/",
+                "tetra:scale/"
+            ],
+            "durability": 4,
+            "durabilityMultiplier": 2,
+            "integrity": 1,
+            "key": "heavy_chest_base/",
+            "aspects": {
+                "armor": 2,
+                "armor_chest": 2,
+                "wearable": 2,
+                "breakable": 2
+            },
+            "contexts": [
+                "armor",
+                "armor_chest"
+            ],
+            "attributes": {
+                "**generic.movement_speed": -0.05
+            },
+            "extract": {
+                "primaryAttributes": {
+                    "generic.armor": 0.3714,
+                    "generic.armor_toughness": 0.0857
+                },
+                "secondaryAttributes": {
+                    "generic.armor": -0.1611,
+                    "generic.armor_toughness": -0.6557
+                },
+                "tertiaryAttributes": {
+                    "generic.armor": 0.9164,
+                    "generic.armor_toughness": 0.9038
+                },
+                "primaryEffects": {},
+                "secondaryEffects": {},
+                "tertiaryEffects": {},
+                "durability": 0.3,
+                "integrity": 1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+                    "textureX": 48,
+                    "textureY": 0
+                },
+                "availableTextures": [
+                    "base"
+                ],
+                "models": [
+                    {
+                        "type": "gecko",
+                        "location": "geotetraarmor:item/armor/heavy/"
+                    },
+                    {
+                        "location": "geotetraarmor:item/module/armor/chest/"
+                    }
+                ]
+            },
+            "primaryEffects": {},
+            "secondaryEffects": {},
+            "tertiaryEffects": {},
+            "magicCapacity": 1
+        }
+    ]
 }
