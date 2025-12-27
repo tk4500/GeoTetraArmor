@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "slots": [
+        "chest/base",
+        "chest/left",
+        "chest/right",
+        "feet/left",
+        "feet/right",
+        "head/base",
+        "legs/belt",
+        "legs/left",
+        "legs/right"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "requirement":{
+        "type": "tetra:improvement",
+        "improvement": "hone_armor",
+        "level": 1
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "hone_armor": 2
+            }
+        }
+    ]
+}
