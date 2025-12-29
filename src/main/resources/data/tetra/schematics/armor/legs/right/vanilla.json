@@ -13,16 +13,16 @@
     "hone": false,
     "rarity": "basic",
     "applicableMaterials": [
-                "tetra:wood/",
-                "tetra:stone/",
-                "tetra:gem/",
-                "tetra:metal/",
-                "tetra:bone/",
-                "tetra:fabric/",
-                "tetra:fibre/",
-                "tetra:skin/",
-                "tetra:scale/"
-            ],
+        "tetra:wood/",
+        "tetra:stone/",
+        "tetra:gem/",
+        "tetra:metal/",
+        "tetra:bone/",
+        "tetra:fabric/",
+        "tetra:fibre/",
+        "tetra:skin/",
+        "tetra:scale/"
+    ],
     "outcomes": [
         {
             "materials": [
@@ -37,7 +37,8 @@
                 "tetra:scale/"
             ],
             "moduleKey": "armor/legs/right/vanilla",
-            "moduleVariant": "vanilla_legs_right/"
+            "moduleVariant": "vanilla_legs_right/",
+            "countFactor": 3
         }
     ]
 }

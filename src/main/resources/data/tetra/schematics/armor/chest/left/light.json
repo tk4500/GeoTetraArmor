@@ -14,31 +14,30 @@
     "rarity": "basic",
     "applicableMaterials": [
         "tetra:wood/",
-        "tetra:stone/",
-        "tetra:gem/",
-        "tetra:metal/",
-        "tetra:bone/",
         "tetra:fabric/",
         "tetra:fibre/",
         "tetra:skin/",
-        "tetra:scale/"
+        "tetra:bone/"
     ],
     "outcomes": [
         {
             "materials": [
                 "tetra:wood/",
-                "tetra:stone/",
-                "tetra:gem/",
-                "tetra:metal/",
-                "tetra:bone/",
                 "tetra:fabric/",
                 "tetra:fibre/",
                 "tetra:skin/",
-                "tetra:scale/"
+                "tetra:bone/"
             ],
             "countFactor": 3,
-            "moduleKey": "armor/chest/left/vanilla",
-            "moduleVariant": "vanilla_chest_left/"
+            "moduleKey": "armor/chest/left/light",
+            "moduleVariant": "light_chest_left/",
+            "countOffset": -1,
+            "toolOffset": 1
         }
-    ]
+    ],
+    "requirement": {
+        "type": "tetra:module",
+        "module": "chest/left",
+        "variant": "vanilla_chest_left/"
+    }
 }

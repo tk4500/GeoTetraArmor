@@ -12,16 +12,16 @@
         "textureY": 0
     },
     "applicableMaterials": [
-                "tetra:wood/",
-                "tetra:stone/",
-                "tetra:gem/",
-                "tetra:metal/",
-                "tetra:bone/",
-                "tetra:fabric/",
-                "tetra:fibre/",
-                "tetra:skin/",
-                "tetra:scale/"
-            ],
+        "tetra:wood/",
+        "tetra:stone/",
+        "tetra:gem/",
+        "tetra:metal/",
+        "tetra:bone/",
+        "tetra:fabric/",
+        "tetra:fibre/",
+        "tetra:skin/",
+        "tetra:scale/"
+    ],
     "outcomes": [
         {
             "materials": [

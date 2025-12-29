@@ -13,31 +13,29 @@
     "hone": false,
     "rarity": "basic",
     "applicableMaterials": [
-                "tetra:wood/",
-                "tetra:stone/",
-                "tetra:gem/",
-                "tetra:metal/",
-                "tetra:bone/",
-                "tetra:fabric/",
-                "tetra:fibre/",
-                "tetra:skin/",
-                "tetra:scale/"
-            ],
+        "tetra:stone/",
+        "tetra:metal/",
+        "tetra:scale/",
+        "tetra:gem/"
+    ],
     "outcomes": [
         {
             "materials": [
-                "tetra:wood/",
                 "tetra:stone/",
-                "tetra:gem/",
                 "tetra:metal/",
-                "tetra:bone/",
-                "tetra:fabric/",
-                "tetra:fibre/",
-                "tetra:skin/",
-                "tetra:scale/"
+                "tetra:scale/",
+                "tetra:gem/"
             ],
             "moduleKey": "armor/feet/right/heavy",
-            "moduleVariant": "heavy_feet_right/"
+            "moduleVariant": "heavy_feet_right/",
+            "countFactor": 3,
+            "countOffset": 2,
+            "toolOffset": 1
         }
-    ]
+    ],
+    "requirement": {
+        "type": "tetra:module",
+        "module": "feet/right",
+        "variant": "vanilla_feet_right/"
+    }
 }
