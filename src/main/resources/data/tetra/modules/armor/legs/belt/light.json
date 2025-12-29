@@ -2,7 +2,7 @@
     "replace": true,
     "type": "tetra:basic_major_module",
     "slots": [
-        "chest/left"
+        "legs/belt"
     ],
     "improvements": [
         "tetra:armor/shared/",
@@ -11,66 +11,67 @@
     "variants": [
         {
             "materials": [
-                "tetra:stone/",
-                "tetra:metal/",
-                "tetra:scale/",
-                "tetra:gem/"
+                "tetra:wood/",
+                "tetra:fabric/",
+                "tetra:fibre/",
+                "tetra:skin/",
+                "tetra:bone/"
             ],
-            "key": "heavy_chest_left/",
+            "key": "light_legs_belt/",
             "aspects": {
                 "armor": 2,
-                "armor_chest": 2,
+                "armor_legs": 2,
                 "wearable": 2,
                 "breakable": 2
             },
-            "durability": 2,
+            "durability": 8,
             "integrity": 2,
             "contexts": [
                 "armor",
-                "armor_chest"
+                "armor_legs"
             ],
             "extract": {
                 "primaryAttributes": {
-                    "minecraft:generic.armor": 0.1581,
-                    "minecraft:generic.armor_toughness": 0.0774
+                    "minecraft:generic.armor": 0.03866,
+                    "minecraft:generic.armor_toughness": 0.0339
                 },
                 "secondaryAttributes": {
-                    "minecraft:generic.armor": -0.13425,
-                    "minecraft:generic.armor_toughness": -0.6122
+                    "minecraft:generic.armor": -0.00529,
+                    "minecraft:generic.armor_toughness": -0.2678
                 },
                 "tertiaryAttributes": {
-                    "minecraft:generic.armor": 0.76365,
-                    "minecraft:generic.armor_toughness": 0.8366
+                    "minecraft:generic.armor": 0.56726,
+                    "minecraft:generic.armor_toughness": 0.36605
                 },
                 "primaryEffects": {},
                 "secondaryEffects": {},
                 "tertiaryEffects": {},
-                "durability": 0.15,
-                "integrity": 1,
-                "magicCapacity": 1,
+                "durability": 1.2,
+                "integrity": 4,
+                "magicCapacity": 4,
                 "glyph": {
                     "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
-                    "textureX": 0,
+                    "textureX": 112,
                     "textureY": 0
                 },
                 "availableTextures": [
-                    "left"
+                    "base"
                 ],
                 "models": [
                     {
                         "type": "gecko",
-                        "location": "geotetraarmor:item/armor/heavy/"
+                        "location": "geotetraarmor:item/armor/vanilla/"
                     },
                     {
-                        "location": "geotetraarmor:item/module/armor/chest/"
+                        "location": "geotetraarmor:item/module/armor/legs/"
                     }
                 ]
             },
-            "durabilityMultiplier": 4,
+            "durabilityMultiplier": 1,
             "attributes": {
-                "**generic.movement_speed": -0.05,
-                "**generic.knockback_resistance": 0.05,
-                "**forge:entity_gravity": 0.1
+                "**generic.movement_speed": 0.1,
+                "**forge:swim_speed": 0.1,
+                "**generic.knockback_resistance": -0.05
             }
         }
     ]

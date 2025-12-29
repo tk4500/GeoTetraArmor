@@ -11,15 +11,10 @@
     "variants": [
         {
             "materials": [
-                "tetra:wood/",
                 "tetra:stone/",
-                "tetra:gem/",
                 "tetra:metal/",
-                "tetra:bone/",
-                "tetra:fabric/",
-                "tetra:fibre/",
-                "tetra:skin/",
-                "tetra:scale/"
+                "tetra:scale/",
+                "tetra:gem/"
             ],
             "key": "heavy_legs_belt/",
             "aspects": {
@@ -28,32 +23,29 @@
                 "wearable": 2,
                 "breakable": 2
             },
-            "durability": 4,
-            "integrity": 1,
+            "durability": 2,
+            "integrity": 2,
             "contexts": [
                 "armor",
                 "armor_legs"
             ],
-            "attributes": {
-                "**generic.movement_speed": -0.05
-            },
             "extract": {
                 "primaryAttributes": {
-                    "minecraft:generic.armor": 0.0619,
-                    "minecraft:generic.armor_toughness": 0.0814
+                    "minecraft:generic.armor": 0.07733,
+                    "minecraft:generic.armor_toughness": 0.1356
                 },
                 "secondaryAttributes": {
-                    "minecraft:generic.armor": -0.0085,
-                    "minecraft:generic.armor_toughness": -0.6427
+                    "minecraft:generic.armor": -0.01057,
+                    "minecraft:generic.armor_toughness": -1.0712
                 },
                 "tertiaryAttributes": {
-                    "minecraft:generic.armor": 0.9076,
-                    "minecraft:generic.armor_toughness": 0.8785
+                    "minecraft:generic.armor": 1.13453,
+                    "minecraft:generic.armor_toughness": 1.4642
                 },
                 "primaryEffects": {},
                 "secondaryEffects": {},
                 "tertiaryEffects": {},
-                "durability": 0.3,
+                "durability": 0.15,
                 "integrity": 1,
                 "magicCapacity": 1,
                 "glyph": {
@@ -74,11 +66,12 @@
                     }
                 ]
             },
-            "durabilityMultiplier": 2,
-            "primaryEffects": {},
-            "secondaryEffects": {},
-            "tertiaryEffects": {},
-            "magicCapacity": 1
+            "durabilityMultiplier": 4,
+            "attributes": {
+                "**generic.movement_speed": -0.05,
+                "**generic.knockback_resistance": 0.05,
+                "**forge:entity_gravity": 0.1
+            }
         }
     ]
 }

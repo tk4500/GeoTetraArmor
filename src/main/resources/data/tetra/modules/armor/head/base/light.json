@@ -11,19 +11,20 @@
     "variants": [
         {
             "materials": [
-                "tetra:stone/",
-                "tetra:metal/",
-                "tetra:scale/",
-                "tetra:gem/"
+                "tetra:wood/",
+                "tetra:fabric/",
+                "tetra:fibre/",
+                "tetra:skin/",
+                "tetra:bone/"
             ],
-            "key": "heavy_head_base/",
+            "key": "light_head_base/",
             "aspects": {
                 "armor": 2,
                 "armor_head": 2,
                 "wearable": 2,
                 "breakable": 2
             },
-            "durability": 2,
+            "durability": 8,
             "integrity": 2,
             "contexts": [
                 "armor",
@@ -31,20 +32,20 @@
             ],
             "extract": {
                 "primaryAttributes": {
-                    "minecraft:generic.armor": 1.0679,
-                    "minecraft:generic.armor_toughness": 2.37227
+                    "minecraft:generic.armor": 0.53395,
+                    "minecraft:generic.armor_toughness": 0.59307
                 },
                 "secondaryAttributes": {
-                    "minecraft:generic.armor": -0.65772,
-                    "minecraft:generic.armor_toughness": -2.83917
+                    "minecraft:generic.armor": -0.32886,
+                    "minecraft:generic.armor_toughness": -0.70979
                 },
                 "tertiaryAttributes": {
-                    "minecraft:generic.armor": 0.05328,
-                    "minecraft:generic.armor_toughness": 0.30917
+                    "minecraft:generic.armor": 0.02664,
+                    "minecraft:generic.armor_toughness": 0.07729
                 },
-                "durability": 0.15,
-                "integrity": 1,
-                "magicCapacity": 1,
+                "durability": 1.2,
+                "integrity": 4,
+                "magicCapacity": 4,
                 "glyph": {
                     "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
                     "textureX": 176,
@@ -56,7 +57,7 @@
                 "models": [
                     {
                         "type": "gecko",
-                        "location": "geotetraarmor:item/armor/heavy/"
+                        "location": "geotetraarmor:item/armor/vanilla/"
                     },
                     {
                         "location": "geotetraarmor:item/module/armor/head/"
@@ -66,11 +67,11 @@
                 "secondaryEffects": {},
                 "tertiaryEffects": {}
             },
-            "durabilityMultiplier": 4,
+            "durabilityMultiplier": 1,
             "attributes": {
-                "**generic.movement_speed": -0.05,
-                "**generic.knockback_resistance": 0.05,
-                "**forge:entity_gravity": 0.1
+                "**generic.movement_speed": 0.1,
+                "**forge:swim_speed": 0.1,
+                "**generic.knockback_resistance": -0.05
             }
         }
     ]

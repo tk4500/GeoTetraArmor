@@ -219,5 +219,48 @@
   "tetra.module.armor/feet/right/heavy.description": "A heavy-style boot.",
   "tetra.module.armor/feet/right/heavy.item_name": "Heavy Boot",
   "tetra.module.armor/feet/right/heavy.material_name": "Heavy %s Boot",
-  "tetra.module.armor/feet/right/heavy.prefix": "%s"
+  "tetra.module.armor/feet/right/heavy.prefix": "%s",
+
+  "tetra/schematic/armor/legs/left/light.description": "A light-style greave.",
+  "tetra/schematic/armor/legs/left/light.slot1": "Greave Material",
+  "tetra/schematic/armor/legs/left/light.name": "light Greave",
+  "tetra.module.armor/legs/left/light.name": "light Greave",
+  "tetra.module.armor/legs/left/light.description": "A light-style greave—extra light!",
+  "tetra.module.armor/legs/left/light.item_name": "Greave",
+  "tetra.module.armor/legs/left/light.material_name": "%s Greave",
+
+  "tetra/schematic/armor/legs/belt/light.description": "A light-style belt.",
+  "tetra/schematic/armor/legs/belt/light.slot1": "Belt Material",
+  "tetra/schematic/armor/legs/belt/light.name": "light Belt",
+  "tetra.module.armor/legs/belt/light.name": "light Belt",
+  "tetra.module.armor/legs/belt/light.description": "A light-style belt—extra light!",
+  "tetra.module.armor/legs/belt/light.item_name": "Belt",
+  "tetra.module.armor/legs/belt/light.material_name": "%s Belt",
+  "tetra.module.armor/legs/belt/light.prefix": "%s",
+
+  "tetra/schematic/armor/legs/right/light.description": "A light-style greave.",
+  "tetra/schematic/armor/legs/right/light.slot1": "Greave Material",
+  "tetra/schematic/armor/legs/right/light.name": "light Greave",
+  "tetra.module.armor/legs/right/light.name": "Greave",
+  "tetra.module.armor/legs/right/light.description": "A light-style greave.",
+  "tetra.module.armor/legs/right/light.item_name": "Greave",
+  "tetra.module.armor/legs/right/light.material_name": "%s Greave",
+
+  "tetra/schematic/armor/feet/left/light.description": "A light-style boot.",
+  "tetra/schematic/armor/feet/left/light.slot1": "Boot Material",
+  "tetra/schematic/armor/feet/left/light.name": "light Boot",
+  "tetra.module.armor/feet/left/light.name": "light Boot",
+  "tetra.module.armor/feet/left/light.description": "A light-style boot—extra light!",
+  "tetra.module.armor/feet/left/light.item_name": "Boot",
+  "tetra.module.armor/feet/left/light.material_name": "%s Boot",
+
+  "tetra/schematic/armor/feet/right/light.description": "A light-style boot.",
+  "tetra/schematic/armor/feet/right/light.slot1": "Boot Material",
+  "tetra/schematic/armor/feet/right/light.name": "light Boot",
+  "tetra.module.armor/feet/right/light.name": "light Boot",
+  "tetra.module.armor/feet/right/light.description": "A light-style boot—extra light!",
+  "tetra.module.armor/feet/right/light.item_name": "Boot",
+  "tetra.module.armor/feet/right/light.material_name": "%s Boot",
+  "tetra.module.armor/feet/right/light.prefix": "%s"
+
 }
