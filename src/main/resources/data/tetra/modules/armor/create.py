@@ -3,7 +3,7 @@ import json
 import copy
 
 # Configurações de Caminho
-ROOT_DIR = "."
+ROOT_DIR = os.path.join("..", "armor")
 
 # Listas de Materiais
 MATERIAIS_VANILLA = [
@@ -36,12 +36,14 @@ def aplicar_multiplicadores_atributos(attributes_dict, armor_mult, toughness_mul
         original_val = attributes_dict[key]
         attributes_dict[key] = round(original_val * mult, 5) # Arredonda para evitar floats gigantes
 
-def processar_vanilla(filepath):
+def processar_vanilla(full_path_vanilla):
+    pasta_atual = os.path.dirname(full_path_vanilla)
+    print(f"Lendo: {full_path_vanilla}")
     try:
-        with open(filepath, 'r', encoding='utf-8') as f:
+        with open(full_path_vanilla, 'r', encoding='utf-8') as f:
             data_vanilla = json.load(f)
     except Exception as e:
-        print(f"Erro ao ler {filepath}: {e}")
+        print(f"Erro ao ler {full_path_vanilla}: {e}")
         return
 
     # O arquivo pode ter múltiplos variants, mas geralmente armadura tem 1 principal
@@ -69,9 +71,9 @@ def processar_vanilla(filepath):
         if "attributes" not in variant:
             variant["attributes"] = {}
         
-        variant["attributes"]["minecraft:generic.movement_speed"] = 0.10
-        variant["attributes"]["forge:swim_speed"] = 0.10
-        variant["attributes"]["minecraft:generic.knockback_resistance"] = -0.05
+        variant["attributes"]["**generic.movement_speed"] = 0.10
+        variant["attributes"]["**forge:swim_speed"] = 0.10
+        variant["attributes"]["**generic.knockback_resistance"] = -0.05
         
         # 5. Math nos atributos extraídos (Extract)
         if "extract" in variant:
@@ -88,7 +90,7 @@ def processar_vanilla(filepath):
         # Mantém Vanilla conforme pedido ("textura do leve vai ser a mesma do vanilla")
 
     # Salvar Light
-    path_light = filepath.replace("vanilla.json", "light.json")
+    path_light = os.path.join(pasta_atual, "light.json")
     with open(path_light, 'w', encoding='utf-8') as f:
         json.dump(data_light, f, indent=4)
     print(f"Criado: {path_light}")
@@ -115,10 +117,10 @@ def processar_vanilla(filepath):
         if "attributes" not in variant:
             variant["attributes"] = {}
             
-        variant["attributes"]["minecraft:generic.movement_speed"] = -0.05
-        variant["attributes"]["minecraft:generic.knockback_resistance"] = 0.05
+        variant["attributes"]["**generic.movement_speed"] = -0.05
+        variant["attributes"]["**generic.knockback_resistance"] = 0.05
         # Gravidade (Forge usa forge:entity_gravity ou similar, verifique se o mod suporta)
-        variant["attributes"]["forge:entity_gravity"] = 0.10 
+        variant["attributes"]["**forge:entity_gravity"] = 0.10 
         
         # 5. Math nos atributos extraídos (Extract)
         if "extract" in variant:
@@ -137,7 +139,7 @@ def processar_vanilla(filepath):
                         model["location"] = model["location"].replace("vanilla", "heavy")
 
     # Salvar Heavy
-    path_heavy = filepath.replace("vanilla.json", "heavy.json")
+    path_heavy = os.path.join(pasta_atual, "heavy.json")
     with open(path_heavy, 'w', encoding='utf-8') as f:
         json.dump(data_heavy, f, indent=4)
     print(f"Criado: {path_heavy}")
@@ -151,13 +153,18 @@ def main():
     print("Iniciando geração de módulos Light e Heavy...")
     
     # Caminhar recursivamente pelas pastas
+    count = 0
+    # os.walk retorna (caminho_da_pasta_atual, subpastas, arquivos)
     for root, dirs, files in os.walk(ROOT_DIR):
-        for file in files:
-            if file == "vanilla.json":
-                full_path = os.path.join(root, file)
-                processar_vanilla(full_path)
+        if "vanilla.json" in files:
+            full_path = os.path.join(root, "vanilla.json")
+            processar_vanilla(full_path)
+            count += 1
 
-    print("Concluído!")
+    if count == 0:
+        print("Nenhum arquivo 'vanilla.json' foi encontrado.")
+    else:
+        print(f"Processo concluído! {count} pastas processadas.")
 
 if __name__ == "__main__":
     main()
