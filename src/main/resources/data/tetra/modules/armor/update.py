@@ -60,31 +60,10 @@ diretorio_base = "./"  # Coloque o caminho da sua pasta raiz aqui
 nome_do_json = "vanilla.json"  # Ou o nome do arquivo que você quer filtrar
 
 parametros_para_injetar = {
-    "improvements": ["tetra:armor/shared/", "tetra:shared"],
     "variants": [
         {
-            "materials": [
-                "tetra:wood/",
-                "tetra:stone/",
-                "tetra:gem/",
-                "tetra:metal/",
-                "tetra:bone/",
-                "tetra:fabric/",
-                "tetra:fibre/",
-                "tetra:skin/",
-                "tetra:scale/",
-            ],
-            "durability": 8,  # Note que no seu exemplo você enviou dois valores de durability, o Python pegará o último
-            "durabilityMultiplier": 1,
-            "integrity": 2,
-            "extract": {
-                "primaryEffects": {},
-                "secondaryEffects": {},
-                "tertiaryEffects": {},
-                "durability": 0.6,
-                "integrity": 2,
-                "magicCapacity": 2,
-            },
+        "durability": 4,
+        "durabilityMultiplier": 2,
         }
     ],
 }

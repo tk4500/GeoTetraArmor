@@ -17,13 +17,13 @@
     "displayType": "major",
     "requirement":{
         "type": "tetra:improvement",
-        "improvement": "hone_armor",
+        "improvement": "hone_gild",
         "level": 4
     },
     "outcomes": [
         {
             "improvements": {
-                "hone_armor": 5
+                "hone_gild": 5
             }
         }
     ]

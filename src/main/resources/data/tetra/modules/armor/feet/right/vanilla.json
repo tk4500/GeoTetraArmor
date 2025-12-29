@@ -28,7 +28,8 @@
                 "wearable": 2,
                 "breakable": 2
             },
-            "durability": 8,
+            "durability": 4,
+            "durabilityMultiplier": 2,
             "integrity": 2,
             "contexts": [
                 "armor",
@@ -70,8 +71,7 @@
                         "location": "geotetraarmor:item/module/armor/feet/"
                     }
                 ]
-            },
-            "durabilityMultiplier": 1
+            }
         }
     ]
 }

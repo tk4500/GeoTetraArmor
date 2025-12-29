@@ -21,8 +21,8 @@
                 "tetra:skin/",
                 "tetra:scale/"
             ],
-            "durability": 8,
-            "durabilityMultiplier": 1,
+            "durability": 4,
+            "durabilityMultiplier": 2,
             "integrity": 2,
             "key": "vanilla_chest_base/",
             "aspects": {

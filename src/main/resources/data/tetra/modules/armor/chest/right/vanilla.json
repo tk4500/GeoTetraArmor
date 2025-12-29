@@ -28,7 +28,7 @@
                 "wearable": 2,
                 "breakable": 2
             },
-            "durability": 8,
+            "durability": 4,
             "integrity": 2,
             "contexts": [
                 "armor",
@@ -71,7 +71,7 @@
                     }
                 ]
             },
-            "durabilityMultiplier": 1
+            "durabilityMultiplier": 2
         }
     ]
 }

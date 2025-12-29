@@ -5,7 +5,9 @@
         "aspects": {
             "honed": 1
         },
+        "attributes":{
         "generic.armor": 1
+        }
     },
     {
         "key": "hone_armor",
@@ -14,7 +16,9 @@
         "aspects": {
             "honed": 2
         },
+        "attributes":{
         "generic.armor": 2
+        }
     },
     {
         "key": "hone_armor",
@@ -23,7 +27,9 @@
         "aspects": {
             "honed": 3
         },
+        "attributes":{
         "generic.armor": 3
+        }
     },
     {
         "key": "hone_armor",
@@ -32,7 +38,9 @@
         "aspects": {
             "honed": 4
         },
+        "attributes":{
         "generic.armor": 4
+    }
     },
     {
         "key": "hone_armor",
@@ -41,6 +49,8 @@
         "aspects": {
             "honed": 5
         },
+        "attributes":{
         "generic.armor": 5
+        }
     }
 ]
