@@ -32,10 +32,5 @@
             "countOffset": 2,
             "toolOffset": 1
         }
-    ],
-    "requirement": {
-        "type": "tetra:module",
-        "module": "feet/right",
-        "variant": "vanilla_feet_right/"
-    }
+    ]
 }

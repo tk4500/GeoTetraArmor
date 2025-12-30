@@ -30,7 +30,7 @@ def processar_schematic_vanilla(full_path_vanilla):
         return
 
     # Informações base para o requirement (assumindo que o slot 0 é o alvo)
-    target_slot = data_vanilla.get("slots", [""])[0]
+    #target_slot = data_vanilla.get("slots", [""])[0]
     
     # Tentar pegar a variant vanilla do primeiro outcome para usar no requirement
     vanilla_variant_key = ""
@@ -62,12 +62,12 @@ def processar_schematic_vanilla(full_path_vanilla):
     data_light["applicableMaterials"] = MATERIAIS_LIGHT
     
     # 2. Requirement (Só permite se for vanilla)
-    if target_slot and vanilla_variant_key:
-        data_light["requirement"] = {
-            "type": "tetra:module",
-            "module": target_slot,
-            "variant": vanilla_variant_key
-        }
+    #if target_slot and vanilla_variant_key:
+    #    data_light["requirement"] = {
+    #        "type": "tetra:module",
+    #        "module": target_slot,
+    #        "variant": vanilla_variant_key
+    #    }
     
     for outcome in data_light.get("outcomes", []):
         outcome["materials"] = MATERIAIS_LIGHT
@@ -83,9 +83,6 @@ def processar_schematic_vanilla(full_path_vanilla):
         current_count_offset = outcome.get("countOffset", 0)
         outcome["countOffset"] = current_count_offset - 1
         
-        # Regra: aumentar toolOffset em 1
-        current_tool_offset = outcome.get("toolOffset", 0)
-        outcome["toolOffset"] = current_tool_offset + 1
 
     # Salvar Light
     path_light = os.path.join(pasta_atual, "light.json")
@@ -102,12 +99,12 @@ def processar_schematic_vanilla(full_path_vanilla):
     data_heavy["applicableMaterials"] = MATERIAIS_HEAVY
     
     # 2. Requirement
-    if target_slot and vanilla_variant_key:
-        data_heavy["requirement"] = {
-            "type": "tetra:module",
-            "module": target_slot,
-            "variant": vanilla_variant_key
-        }
+    #if target_slot and vanilla_variant_key:
+    #    data_heavy["requirement"] = {
+    #        "type": "tetra:module",
+    #        "module": target_slot,
+    #        "variant": vanilla_variant_key
+    #    }
         
     for outcome in data_heavy.get("outcomes", []):
         outcome["materials"] = MATERIAIS_HEAVY

@@ -31,13 +31,7 @@
             "countFactor": 3,
             "moduleKey": "armor/legs/belt/light",
             "moduleVariant": "light_legs_belt/",
-            "countOffset": -1,
-            "toolOffset": 1
+            "countOffset": -1
         }
-    ],
-    "requirement": {
-        "type": "tetra:module",
-        "module": "legs/belt",
-        "variant": "vanilla_legs_belt/"
-    }
+    ]
 }

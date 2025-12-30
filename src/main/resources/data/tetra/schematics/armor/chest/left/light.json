@@ -31,13 +31,7 @@
             "countFactor": 3,
             "moduleKey": "armor/chest/left/light",
             "moduleVariant": "light_chest_left/",
-            "countOffset": -1,
-            "toolOffset": 1
+            "countOffset": -1
         }
-    ],
-    "requirement": {
-        "type": "tetra:module",
-        "module": "chest/left",
-        "variant": "vanilla_chest_left/"
-    }
+    ]
 }

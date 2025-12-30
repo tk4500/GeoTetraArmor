@@ -31,10 +31,5 @@
             "countOffset": 2,
             "toolOffset": 1
         }
-    ],
-    "requirement": {
-        "type": "tetra:module",
-        "module": "chest/base",
-        "variant": "vanilla_chest_base/"
-    }
+    ]
 }

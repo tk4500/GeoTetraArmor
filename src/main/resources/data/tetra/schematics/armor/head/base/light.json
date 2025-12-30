@@ -31,13 +31,7 @@
             "countFactor": 3,
             "moduleKey": "armor/head/base/light",
             "moduleVariant": "light_head_base/",
-            "countOffset": -1,
-            "toolOffset": 1
+            "countOffset": -1
         }
-    ],
-    "requirement": {
-        "type": "tetra:module",
-        "module": "head/base",
-        "variant": "vanilla_head_base/"
-    }
+    ]
 }

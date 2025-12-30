@@ -31,13 +31,7 @@
             "moduleKey": "armor/feet/left/light",
             "moduleVariant": "light_feet_left/",
             "countFactor": 3,
-            "countOffset": -1,
-            "toolOffset": 1
+            "countOffset": -1
         }
-    ],
-    "requirement": {
-        "type": "tetra:module",
-        "module": "feet/left",
-        "variant": "vanilla_feet_left/"
-    }
+    ]
 }

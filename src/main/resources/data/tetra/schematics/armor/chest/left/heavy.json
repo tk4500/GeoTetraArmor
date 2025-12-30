@@ -32,10 +32,5 @@
             "countOffset": 2,
             "toolOffset": 1
         }
-    ],
-    "requirement": {
-        "type": "tetra:module",
-        "module": "chest/left",
-        "variant": "vanilla_chest_left/"
-    }
+    ]
 }

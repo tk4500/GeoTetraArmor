@@ -31,13 +31,7 @@
             "moduleKey": "armor/legs/right/light",
             "moduleVariant": "light_legs_right/",
             "countFactor": 3,
-            "countOffset": -1,
-            "toolOffset": 1
+            "countOffset": -1
         }
-    ],
-    "requirement": {
-        "type": "tetra:module",
-        "module": "legs/right",
-        "variant": "vanilla_legs_right/"
-    }
+    ]
 }
