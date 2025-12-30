@@ -3,7 +3,7 @@
         "key": "tetra:gild_capacity",
         "level": 1,
         "group": "gild_capacity",
-        "integrity": -1,
+        "integrity": 0,
         "magicCapacity": 10
     },
     {
@@ -24,14 +24,14 @@
         "key": "tetra:gild_capacity",
         "level": 4,
         "group": "gild_capacity",
-        "integrity": -1,
+        "integrity": -2,
         "magicCapacity": 40
     },
     {
         "key": "tetra:gild_capacity",
         "level": 5,
         "group": "gild_capacity",
-        "integrity": -1,
+        "integrity": -2,
         "magicCapacity": 50
     }
 ]

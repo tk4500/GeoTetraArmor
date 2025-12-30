@@ -1,3 +1,4 @@
+import math
 import os
 import json
 
@@ -23,25 +24,25 @@ HONING_CONFIG = [
         "name": "reinforce_armor",
         "types": ["all"], "slots": ["any"],
         "attribute": "generic.armor", "value_per_level": 0.5,
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 1
     },
     {
         "name": "reinforce_toughness",
         "types": ["all"], "slots": ["any"],
         "attribute": "generic.armor_toughness", "value_per_level": 0.5,
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 1
     },
     {
         "name": "reinforce_durability",
         "types": ["all"], "slots": ["any"],
         "special_field": "durabilityMultiplier", "value_per_level": 0.1, # +10% por nivel
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 1
     },
     {
         "name": "gild_capacity",
         "types": ["all"], "slots": ["any"],
         "special_field": "magicCapacity", "value_per_level": 10,
-        "integrity_cost": 1, "max_levels": 5 # Geralmente Gild não custa integridade, ele ADICIONA capacidade
+        "integrity_cost": 0, "max_levels": 5, "integrity_per_level": 0.5 # Geralmente Gild não custa integridade, ele ADICIONA capacidade
     },
 
     # --- LEVE ---
@@ -49,19 +50,19 @@ HONING_CONFIG = [
         "name": "light_attack_speed",
         "types": ["light"], "slots": ["chest"],
         "attribute": "generic.attack_speed", "value_per_level": 0.05,
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 1
     },
     {
         "name": "light_flying_speed",
         "types": ["light"], "slots": ["legs"],
         "attribute": "generic.flying_speed", "value_per_level": 0.05,
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 1
     },
     {
         "name": "light_step_height",
         "types": ["light"], "slots": ["feet"],
         "attribute": "forge:step_height", "value_per_level": 0.5,
-        "integrity_cost": 1, "max_levels": 3 # Step height não precisa de muitos niveis
+        "integrity_cost": 1, "max_levels": 3 , "integrity_per_level": 1
     },
 
     # --- NORMAL (VANILLA) ---
@@ -69,13 +70,13 @@ HONING_CONFIG = [
         "name": "vanilla_health",
         "types": ["vanilla"], "slots": ["any"],
         "attribute": "generic.max_health", "value_per_level": 2.0, # 1 Coração
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 0.5
     },
     {
         "name": "vanilla_luck",
         "types": ["vanilla"], "slots": ["any"],
         "attribute": "generic.luck", "value_per_level": 0.5,
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 0.5
     },
 
     # --- PESADA ---
@@ -83,19 +84,19 @@ HONING_CONFIG = [
         "name": "heavy_damage",
         "types": ["heavy"], "slots": ["chest"],
         "attribute": "generic.attack_damage", "value_per_level": 0.5,
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 0.5
     },
     {
         "name": "heavy_knockback",
         "types": ["heavy"], "slots": ["legs"],
         "attribute": "generic.knockback_resistance", "value_per_level": 0.1,
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 0.5
     },
     {
         "name": "heavy_gravity",
         "types": ["heavy"], "slots": ["feet"],
         "attribute": "forge:entity_gravity", "value_per_level": 0.05,
-        "integrity_cost": 1, "max_levels": 5
+        "integrity_cost": 1, "max_levels": 5, "integrity_per_level": 0.5
     }
 ]
 
@@ -124,7 +125,7 @@ def criar_improvement(data):
             "key": f"{MOD_ID}:{data['name']}",
             "level": level,
             "group": data['name'],
-            "integrity": -data['integrity_cost']
+            "integrity": -data['integrity_cost'] - math.floor(data['integrity_per_level'] * (level))
         }
         
         val = round(data['value_per_level'] * level, 4)

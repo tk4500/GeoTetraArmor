@@ -12,7 +12,7 @@
         "key": "tetra:vanilla_luck",
         "level": 2,
         "group": "vanilla_luck",
-        "integrity": -1,
+        "integrity": -2,
         "attributes": {
             "generic.luck": 1.0
         }
@@ -21,7 +21,7 @@
         "key": "tetra:vanilla_luck",
         "level": 3,
         "group": "vanilla_luck",
-        "integrity": -1,
+        "integrity": -2,
         "attributes": {
             "generic.luck": 1.5
         }
@@ -30,7 +30,7 @@
         "key": "tetra:vanilla_luck",
         "level": 4,
         "group": "vanilla_luck",
-        "integrity": -1,
+        "integrity": -3,
         "attributes": {
             "generic.luck": 2.0
         }
@@ -39,7 +39,7 @@
         "key": "tetra:vanilla_luck",
         "level": 5,
         "group": "vanilla_luck",
-        "integrity": -1,
+        "integrity": -3,
         "attributes": {
             "generic.luck": 2.5
         }

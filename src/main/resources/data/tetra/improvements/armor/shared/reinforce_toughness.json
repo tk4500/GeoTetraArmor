@@ -3,7 +3,7 @@
         "key": "tetra:reinforce_toughness",
         "level": 1,
         "group": "reinforce_toughness",
-        "integrity": -1,
+        "integrity": -2,
         "attributes": {
             "generic.armor_toughness": 0.5
         }
@@ -12,7 +12,7 @@
         "key": "tetra:reinforce_toughness",
         "level": 2,
         "group": "reinforce_toughness",
-        "integrity": -1,
+        "integrity": -3,
         "attributes": {
             "generic.armor_toughness": 1.0
         }
@@ -21,7 +21,7 @@
         "key": "tetra:reinforce_toughness",
         "level": 3,
         "group": "reinforce_toughness",
-        "integrity": -1,
+        "integrity": -4,
         "attributes": {
             "generic.armor_toughness": 1.5
         }
@@ -30,7 +30,7 @@
         "key": "tetra:reinforce_toughness",
         "level": 4,
         "group": "reinforce_toughness",
-        "integrity": -1,
+        "integrity": -5,
         "attributes": {
             "generic.armor_toughness": 2.0
         }
@@ -39,7 +39,7 @@
         "key": "tetra:reinforce_toughness",
         "level": 5,
         "group": "reinforce_toughness",
-        "integrity": -1,
+        "integrity": -6,
         "attributes": {
             "generic.armor_toughness": 2.5
         }

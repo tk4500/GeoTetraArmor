@@ -3,7 +3,7 @@
         "key": "tetra:light_flying_speed",
         "level": 1,
         "group": "light_flying_speed",
-        "integrity": -1,
+        "integrity": -2,
         "attributes": {
             "generic.flying_speed": 0.05
         }
@@ -12,7 +12,7 @@
         "key": "tetra:light_flying_speed",
         "level": 2,
         "group": "light_flying_speed",
-        "integrity": -1,
+        "integrity": -3,
         "attributes": {
             "generic.flying_speed": 0.1
         }
@@ -21,7 +21,7 @@
         "key": "tetra:light_flying_speed",
         "level": 3,
         "group": "light_flying_speed",
-        "integrity": -1,
+        "integrity": -4,
         "attributes": {
             "generic.flying_speed": 0.15
         }
@@ -30,7 +30,7 @@
         "key": "tetra:light_flying_speed",
         "level": 4,
         "group": "light_flying_speed",
-        "integrity": -1,
+        "integrity": -5,
         "attributes": {
             "generic.flying_speed": 0.2
         }
@@ -39,7 +39,7 @@
         "key": "tetra:light_flying_speed",
         "level": 5,
         "group": "light_flying_speed",
-        "integrity": -1,
+        "integrity": -6,
         "attributes": {
             "generic.flying_speed": 0.25
         }

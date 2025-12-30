@@ -12,7 +12,7 @@
         "key": "tetra:heavy_knockback",
         "level": 2,
         "group": "heavy_knockback",
-        "integrity": -1,
+        "integrity": -2,
         "attributes": {
             "generic.knockback_resistance": 0.2
         }
@@ -21,7 +21,7 @@
         "key": "tetra:heavy_knockback",
         "level": 3,
         "group": "heavy_knockback",
-        "integrity": -1,
+        "integrity": -2,
         "attributes": {
             "generic.knockback_resistance": 0.3
         }
@@ -30,7 +30,7 @@
         "key": "tetra:heavy_knockback",
         "level": 4,
         "group": "heavy_knockback",
-        "integrity": -1,
+        "integrity": -3,
         "attributes": {
             "generic.knockback_resistance": 0.4
         }
@@ -39,7 +39,7 @@
         "key": "tetra:heavy_knockback",
         "level": 5,
         "group": "heavy_knockback",
-        "integrity": -1,
+        "integrity": -3,
         "attributes": {
             "generic.knockback_resistance": 0.5
         }
