@@ -14,13 +14,6 @@
         "textureX": 0,
         "textureY": 0
     },
-    "outcomes": [
-        {
-            "improvements": {
-                "tetra:heavy_damage": 4
-            }
-        }
-    ],
     "requirement": {
         "type": "tetra:and",
         "requirements": [
@@ -30,25 +23,16 @@
                 "level": 3
             },
             {
-                "type": "tetra:or",
-                "requirements": [
-                    {
-                        "type": "tetra:module",
-                        "module": "chest/base",
-                        "variant": "heavy_chest_base/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "chest/left",
-                        "variant": "heavy_chest_left/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "chest/right",
-                        "variant": "heavy_chest_right/"
-                    }
-                ]
+                "type": "tetra:aspect",
+                "aspect": "heavy"
             }
         ]
-    }
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:heavy_damage": 4
+            }
+        }
+    ]
 }

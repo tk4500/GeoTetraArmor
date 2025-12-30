@@ -22,7 +22,8 @@
                 "armor": 2,
                 "armor_feet": 2,
                 "wearable": 2,
-                "breakable": 2
+                "breakable": 2,
+                "light": 1
             },
             "durability": 8,
             "durabilityMultiplier": 1,

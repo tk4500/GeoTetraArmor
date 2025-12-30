@@ -14,13 +14,6 @@
         "textureX": 0,
         "textureY": 0
     },
-    "outcomes": [
-        {
-            "improvements": {
-                "tetra:light_flying_speed": 2
-            }
-        }
-    ],
     "requirement": {
         "type": "tetra:and",
         "requirements": [
@@ -30,25 +23,16 @@
                 "level": 1
             },
             {
-                "type": "tetra:or",
-                "requirements": [
-                    {
-                        "type": "tetra:module",
-                        "module": "legs/belt",
-                        "variant": "light_legs_belt/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "legs/left",
-                        "variant": "light_legs_left/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "legs/right",
-                        "variant": "light_legs_right/"
-                    }
-                ]
+                "type": "tetra:aspect",
+                "aspect": "light"
             }
         ]
-    }
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:light_flying_speed": 2
+            }
+        }
+    ]
 }

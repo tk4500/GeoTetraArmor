@@ -2,9 +2,6 @@
     {
         "key": "tetra:reinforce_toughness",
         "level": 1,
-        "aspects": {
-            "honing": 1
-        },
         "group": "reinforce_toughness",
         "integrity": -1,
         "attributes": {
@@ -14,9 +11,6 @@
     {
         "key": "tetra:reinforce_toughness",
         "level": 2,
-        "aspects": {
-            "honing": 2
-        },
         "group": "reinforce_toughness",
         "integrity": -1,
         "attributes": {
@@ -26,9 +20,6 @@
     {
         "key": "tetra:reinforce_toughness",
         "level": 3,
-        "aspects": {
-            "honing": 3
-        },
         "group": "reinforce_toughness",
         "integrity": -1,
         "attributes": {
@@ -38,9 +29,6 @@
     {
         "key": "tetra:reinforce_toughness",
         "level": 4,
-        "aspects": {
-            "honing": 4
-        },
         "group": "reinforce_toughness",
         "integrity": -1,
         "attributes": {
@@ -50,9 +38,6 @@
     {
         "key": "tetra:reinforce_toughness",
         "level": 5,
-        "aspects": {
-            "honing": 5
-        },
         "group": "reinforce_toughness",
         "integrity": -1,
         "attributes": {

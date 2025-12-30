@@ -26,14 +26,16 @@
                 "armor": 2,
                 "armor_feet": 2,
                 "wearable": 2,
-                "breakable": 2
+                "breakable": 2,
+                "vanilla": 1
             },
             "durability": 4,
             "integrity": 2,
             "contexts": [
                 "armor",
                 "armor_feet"
-            ],"tags": [
+            ],
+            "tags": [
                 "forge:boots",
                 "forge:armor/boots",
                 "forge:armor",

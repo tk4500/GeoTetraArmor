@@ -22,7 +22,8 @@
                 "armor": 2,
                 "armor_head": 2,
                 "wearable": 2,
-                "breakable": 2
+                "breakable": 2,
+                "light": 1
             },
             "tags": [
                 "forge:helmets",

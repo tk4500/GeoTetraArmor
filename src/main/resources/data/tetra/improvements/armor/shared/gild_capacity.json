@@ -2,9 +2,6 @@
     {
         "key": "tetra:gild_capacity",
         "level": 1,
-        "aspects": {
-            "honing": 1
-        },
         "group": "gild_capacity",
         "integrity": -1,
         "magicCapacity": 10
@@ -12,9 +9,6 @@
     {
         "key": "tetra:gild_capacity",
         "level": 2,
-        "aspects": {
-            "honing": 2
-        },
         "group": "gild_capacity",
         "integrity": -1,
         "magicCapacity": 20
@@ -22,9 +16,6 @@
     {
         "key": "tetra:gild_capacity",
         "level": 3,
-        "aspects": {
-            "honing": 3
-        },
         "group": "gild_capacity",
         "integrity": -1,
         "magicCapacity": 30
@@ -32,9 +23,6 @@
     {
         "key": "tetra:gild_capacity",
         "level": 4,
-        "aspects": {
-            "honing": 4
-        },
         "group": "gild_capacity",
         "integrity": -1,
         "magicCapacity": 40
@@ -42,9 +30,6 @@
     {
         "key": "tetra:gild_capacity",
         "level": 5,
-        "aspects": {
-            "honing": 5
-        },
         "group": "gild_capacity",
         "integrity": -1,
         "magicCapacity": 50

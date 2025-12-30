@@ -20,13 +20,6 @@
         "textureX": 0,
         "textureY": 0
     },
-    "outcomes": [
-        {
-            "improvements": {
-                "tetra:gild_capacity": 1
-            }
-        }
-    ],
     "requirement": {
         "type": "tetra:and",
         "requirements": [
@@ -38,5 +31,12 @@
                 }
             }
         ]
-    }
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:gild_capacity": 1
+            }
+        }
+    ]
 }

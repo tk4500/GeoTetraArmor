@@ -14,13 +14,6 @@
         "textureX": 0,
         "textureY": 0
     },
-    "outcomes": [
-        {
-            "improvements": {
-                "tetra:light_attack_speed": 2
-            }
-        }
-    ],
     "requirement": {
         "type": "tetra:and",
         "requirements": [
@@ -30,25 +23,16 @@
                 "level": 1
             },
             {
-                "type": "tetra:or",
-                "requirements": [
-                    {
-                        "type": "tetra:module",
-                        "module": "chest/base",
-                        "variant": "light_chest_base/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "chest/left",
-                        "variant": "light_chest_left/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "chest/right",
-                        "variant": "light_chest_right/"
-                    }
-                ]
+                "type": "tetra:aspect",
+                "aspect": "light"
             }
         ]
-    }
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:light_attack_speed": 2
+            }
+        }
+    ]
 }

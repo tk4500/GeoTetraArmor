@@ -22,7 +22,8 @@
                 "armor": 2,
                 "armor_chest": 2,
                 "wearable": 2,
-                "breakable": 2
+                "breakable": 2,
+                "light": 1
             },
             "tags": [
                 "forge:chestplates",

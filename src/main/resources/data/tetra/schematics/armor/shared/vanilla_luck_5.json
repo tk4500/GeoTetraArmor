@@ -20,13 +20,6 @@
         "textureX": 0,
         "textureY": 0
     },
-    "outcomes": [
-        {
-            "improvements": {
-                "tetra:vanilla_luck": 5
-            }
-        }
-    ],
     "requirement": {
         "type": "tetra:and",
         "requirements": [
@@ -36,55 +29,16 @@
                 "level": 4
             },
             {
-                "type": "tetra:or",
-                "requirements": [
-                    {
-                        "type": "tetra:module",
-                        "module": "chest/base",
-                        "variant": "vanilla_chest_base/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "chest/left",
-                        "variant": "vanilla_chest_left/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "chest/right",
-                        "variant": "vanilla_chest_right/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "feet/left",
-                        "variant": "vanilla_feet_left/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "feet/right",
-                        "variant": "vanilla_feet_right/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "head/base",
-                        "variant": "vanilla_head_base/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "legs/belt",
-                        "variant": "vanilla_legs_belt/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "legs/left",
-                        "variant": "vanilla_legs_left/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "legs/right",
-                        "variant": "vanilla_legs_right/"
-                    }
-                ]
+                "type": "tetra:aspect",
+                "aspect": "vanilla"
             }
         ]
-    }
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:vanilla_luck": 5
+            }
+        }
+    ]
 }

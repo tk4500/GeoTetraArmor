@@ -26,8 +26,10 @@
                 "armor": 2,
                 "armor_chest": 2,
                 "wearable": 2,
-                "breakable": 2
-            },"tags": [
+                "breakable": 2,
+                "vanilla": 1
+            },
+            "tags": [
                 "forge:chestplates",
                 "forge:armor/chestplates",
                 "forge:armor",

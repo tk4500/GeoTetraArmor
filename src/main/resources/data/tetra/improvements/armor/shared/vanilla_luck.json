@@ -2,9 +2,6 @@
     {
         "key": "tetra:vanilla_luck",
         "level": 1,
-        "aspects": {
-            "honing": 1
-        },
         "group": "vanilla_luck",
         "integrity": -1,
         "attributes": {
@@ -14,9 +11,6 @@
     {
         "key": "tetra:vanilla_luck",
         "level": 2,
-        "aspects": {
-            "honing": 2
-        },
         "group": "vanilla_luck",
         "integrity": -1,
         "attributes": {
@@ -26,9 +20,6 @@
     {
         "key": "tetra:vanilla_luck",
         "level": 3,
-        "aspects": {
-            "honing": 3
-        },
         "group": "vanilla_luck",
         "integrity": -1,
         "attributes": {
@@ -38,9 +29,6 @@
     {
         "key": "tetra:vanilla_luck",
         "level": 4,
-        "aspects": {
-            "honing": 4
-        },
         "group": "vanilla_luck",
         "integrity": -1,
         "attributes": {
@@ -50,9 +38,6 @@
     {
         "key": "tetra:vanilla_luck",
         "level": 5,
-        "aspects": {
-            "honing": 5
-        },
         "group": "vanilla_luck",
         "integrity": -1,
         "attributes": {

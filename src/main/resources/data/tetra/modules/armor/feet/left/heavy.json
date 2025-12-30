@@ -21,7 +21,8 @@
                 "armor": 2,
                 "armor_feet": 2,
                 "wearable": 2,
-                "breakable": 2
+                "breakable": 2,
+                "heavy": 1
             },
             "durability": 2,
             "integrity": 2,

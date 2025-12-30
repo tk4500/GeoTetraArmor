@@ -14,13 +14,6 @@
         "textureX": 0,
         "textureY": 0
     },
-    "outcomes": [
-        {
-            "improvements": {
-                "tetra:heavy_knockback": 1
-            }
-        }
-    ],
     "requirement": {
         "type": "tetra:and",
         "requirements": [
@@ -32,25 +25,16 @@
                 }
             },
             {
-                "type": "tetra:or",
-                "requirements": [
-                    {
-                        "type": "tetra:module",
-                        "module": "legs/belt",
-                        "variant": "heavy_legs_belt/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "legs/left",
-                        "variant": "heavy_legs_left/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "legs/right",
-                        "variant": "heavy_legs_right/"
-                    }
-                ]
+                "type": "tetra:aspect",
+                "aspect": "heavy"
             }
         ]
-    }
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:heavy_knockback": 1
+            }
+        }
+    ]
 }

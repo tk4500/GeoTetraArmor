@@ -20,13 +20,6 @@
         "textureX": 0,
         "textureY": 0
     },
-    "outcomes": [
-        {
-            "improvements": {
-                "tetra:reinforce_toughness": 3
-            }
-        }
-    ],
     "requirement": {
         "type": "tetra:and",
         "requirements": [
@@ -36,5 +29,12 @@
                 "level": 2
             }
         ]
-    }
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:reinforce_toughness": 3
+            }
+        }
+    ]
 }

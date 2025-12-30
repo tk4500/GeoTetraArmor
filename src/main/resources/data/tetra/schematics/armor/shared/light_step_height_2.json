@@ -13,13 +13,6 @@
         "textureX": 0,
         "textureY": 0
     },
-    "outcomes": [
-        {
-            "improvements": {
-                "tetra:light_step_height": 2
-            }
-        }
-    ],
     "requirement": {
         "type": "tetra:and",
         "requirements": [
@@ -29,20 +22,16 @@
                 "level": 1
             },
             {
-                "type": "tetra:or",
-                "requirements": [
-                    {
-                        "type": "tetra:module",
-                        "module": "feet/left",
-                        "variant": "light_feet_left/"
-                    },
-                    {
-                        "type": "tetra:module",
-                        "module": "feet/right",
-                        "variant": "light_feet_right/"
-                    }
-                ]
+                "type": "tetra:aspect",
+                "aspect": "light"
             }
         ]
-    }
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:light_step_height": 2
+            }
+        }
+    ]
 }
