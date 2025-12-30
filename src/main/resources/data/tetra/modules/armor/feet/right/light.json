@@ -31,6 +31,13 @@
                 "armor",
                 "armor_feet"
             ],
+            "tags": [
+                "forge:boots",
+                "forge:armor/boots",
+                "forge:armor",
+                "forge:armors",
+                "tetra:light"
+            ],
             "extract": {
                 "primaryAttributes": {
                     "minecraft:generic.armor": 0.08035,

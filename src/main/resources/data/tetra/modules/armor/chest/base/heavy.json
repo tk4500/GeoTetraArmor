@@ -26,6 +26,13 @@
                 "wearable": 2,
                 "breakable": 2
             },
+            "tags": [
+                "forge:chestplates",
+                "forge:armor/chestplates",
+                "forge:armor",
+                "forge:armors",
+                "tetra:heavy"
+            ],
             "contexts": [
                 "armor",
                 "armor_chest"

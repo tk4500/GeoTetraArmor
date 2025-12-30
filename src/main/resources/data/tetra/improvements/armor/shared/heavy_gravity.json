@@ -1,0 +1,62 @@
+[
+    {
+        "key": "tetra:heavy_gravity",
+        "level": 1,
+        "aspects": {
+            "honing": 1
+        },
+        "group": "heavy_gravity",
+        "integrity": -1,
+        "attributes": {
+            "forge:entity_gravity": 0.05
+        }
+    },
+    {
+        "key": "tetra:heavy_gravity",
+        "level": 2,
+        "aspects": {
+            "honing": 2
+        },
+        "group": "heavy_gravity",
+        "integrity": -1,
+        "attributes": {
+            "forge:entity_gravity": 0.1
+        }
+    },
+    {
+        "key": "tetra:heavy_gravity",
+        "level": 3,
+        "aspects": {
+            "honing": 3
+        },
+        "group": "heavy_gravity",
+        "integrity": -1,
+        "attributes": {
+            "forge:entity_gravity": 0.15
+        }
+    },
+    {
+        "key": "tetra:heavy_gravity",
+        "level": 4,
+        "aspects": {
+            "honing": 4
+        },
+        "group": "heavy_gravity",
+        "integrity": -1,
+        "attributes": {
+            "forge:entity_gravity": 0.2
+        }
+    },
+    {
+        "key": "tetra:heavy_gravity",
+        "level": 5,
+        "aspects": {
+            "honing": 5
+        },
+        "group": "heavy_gravity",
+        "integrity": -1,
+        "attributes": {
+            "forge:entity_gravity": 0.25
+        }
+    }
+]

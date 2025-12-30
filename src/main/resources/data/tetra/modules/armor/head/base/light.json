@@ -24,6 +24,13 @@
                 "wearable": 2,
                 "breakable": 2
             },
+            "tags": [
+                "forge:helmets",
+                "forge:armor/helmets",
+                "forge:armor",
+                "forge:armors",
+                "tetra:light"
+            ],
             "durability": 8,
             "integrity": 2,
             "contexts": [

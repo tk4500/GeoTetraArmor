@@ -74,6 +74,7 @@ def processar_vanilla(full_path_vanilla):
         variant["attributes"]["**generic.movement_speed"] = 0.10
         variant["attributes"]["**forge:swim_speed"] = 0.10
         variant["attributes"]["**generic.knockback_resistance"] = -0.05
+        variant["tags"] = variant.get("tags", []) + ["tetra:light"]
         
         # 5. Math nos atributos extraídos (Extract)
         if "extract" in variant:
@@ -85,6 +86,7 @@ def processar_vanilla(full_path_vanilla):
             extract["durability"] = 1.2
             extract["integrity"] = 4
             extract["magicCapacity"] = 4
+            
 
         # 6. Modelos/Texturas
         # Mantém Vanilla conforme pedido ("textura do leve vai ser a mesma do vanilla")
@@ -121,6 +123,7 @@ def processar_vanilla(full_path_vanilla):
         variant["attributes"]["**generic.knockback_resistance"] = 0.05
         # Gravidade (Forge usa forge:entity_gravity ou similar, verifique se o mod suporta)
         variant["attributes"]["**forge:entity_gravity"] = 0.10 
+        variant["tags"] = variant.get("tags", []) + ["tetra:heavy"]
         
         # 5. Math nos atributos extraídos (Extract)
         if "extract" in variant:

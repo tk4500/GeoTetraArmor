@@ -27,7 +27,12 @@
                 "armor_head": 2,
                 "wearable": 2,
                 "breakable": 2
-            },
+            },"tags": [
+                "forge:helmets",
+                "forge:armor/helmets",
+                "forge:armor",
+                "forge:armors"
+            ],
             "durability": 4,
             "integrity": 2,
             "contexts": [

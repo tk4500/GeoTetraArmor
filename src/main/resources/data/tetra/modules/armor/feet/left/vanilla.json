@@ -33,6 +33,11 @@
             "contexts": [
                 "armor",
                 "armor_feet"
+            ],"tags": [
+                "forge:boots",
+                "forge:armor/boots",
+                "forge:armor",
+                "forge:armors"
             ],
             "extract": {
                 "primaryAttributes": {

@@ -1,0 +1,48 @@
+{
+    "replace": true,
+    "slots": [
+        "feet/left",
+        "feet/right"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+        "textureX": 0,
+        "textureY": 0
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:heavy_gravity": 2
+            }
+        }
+    ],
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "tetra:heavy_gravity",
+                "level": 1
+            },
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:module",
+                        "module": "feet/left",
+                        "variant": "heavy_feet_left/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "feet/right",
+                        "variant": "heavy_feet_right/"
+                    }
+                ]
+            }
+        ]
+    }
+}

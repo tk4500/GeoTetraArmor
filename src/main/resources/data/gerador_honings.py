@@ -8,8 +8,8 @@ ROOT_DIR = "." # Pasta raiz onde os arquivos serão gerados
 MOD_ID = "tetra" # Seu ID de mod/datapack
 
 # Estrutura de Pastas de Saída
-PATH_IMPROVEMENTS = os.path.join(ROOT_DIR, "tetra", "improvements", "armor")
-PATH_SCHEMATICS = os.path.join(ROOT_DIR, "tetra", "schematics", "armor", "honing")
+PATH_IMPROVEMENTS = os.path.join(ROOT_DIR, "tetra", "improvements", "armor", "shared")
+PATH_SCHEMATICS = os.path.join(ROOT_DIR, "tetra", "schematics", "armor", "shared")
 
 # ==========================================
 # DEFINIÇÃO DOS HONINGS
@@ -41,7 +41,7 @@ HONING_CONFIG = [
         "name": "gild_capacity",
         "types": ["all"], "slots": ["any"],
         "special_field": "magicCapacity", "value_per_level": 10,
-        "integrity_cost": 0, "max_levels": 5 # Geralmente Gild não custa integridade, ele ADICIONA capacidade
+        "integrity_cost": 1, "max_levels": 5 # Geralmente Gild não custa integridade, ele ADICIONA capacidade
     },
 
     # --- LEVE ---
@@ -124,6 +124,9 @@ def criar_improvement(data):
         entry = {
             "key": f"{MOD_ID}:{data['name']}",
             "level": level,
+            "aspects": {
+                "honing": level,
+            },
             "group": data['name'],
             "integrity": -data['integrity_cost']
         }

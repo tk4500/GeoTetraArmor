@@ -1,0 +1,54 @@
+{
+    "replace": true,
+    "slots": [
+        "legs/belt",
+        "legs/left",
+        "legs/right"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+        "textureX": 0,
+        "textureY": 0
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:light_flying_speed": 5
+            }
+        }
+    ],
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "tetra:light_flying_speed",
+                "level": 4
+            },
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:module",
+                        "module": "legs/belt",
+                        "variant": "light_legs_belt/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "legs/left",
+                        "variant": "light_legs_left/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "legs/right",
+                        "variant": "light_legs_right/"
+                    }
+                ]
+            }
+        ]
+    }
+}

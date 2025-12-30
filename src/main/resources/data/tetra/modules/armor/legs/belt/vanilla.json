@@ -33,6 +33,11 @@
             "contexts": [
                 "armor",
                 "armor_legs"
+            ],"tags": [
+                "forge:leggings",
+                "forge:armor/leggings",
+                "forge:armor",
+                "forge:armors"
             ],
             "extract": {
                 "primaryAttributes": {

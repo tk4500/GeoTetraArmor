@@ -1,0 +1,54 @@
+{
+    "replace": true,
+    "slots": [
+        "chest/base",
+        "chest/left",
+        "chest/right"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+        "textureX": 0,
+        "textureY": 0
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:light_attack_speed": 3
+            }
+        }
+    ],
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "tetra:light_attack_speed",
+                "level": 2
+            },
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:module",
+                        "module": "chest/base",
+                        "variant": "light_chest_base/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "chest/left",
+                        "variant": "light_chest_left/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "chest/right",
+                        "variant": "light_chest_right/"
+                    }
+                ]
+            }
+        ]
+    }
+}

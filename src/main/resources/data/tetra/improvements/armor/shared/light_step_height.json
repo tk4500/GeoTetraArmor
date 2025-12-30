@@ -1,0 +1,38 @@
+[
+    {
+        "key": "tetra:light_step_height",
+        "level": 1,
+        "aspects": {
+            "honing": 1
+        },
+        "group": "light_step_height",
+        "integrity": -1,
+        "attributes": {
+            "forge:step_height_addition": 0.5
+        }
+    },
+    {
+        "key": "tetra:light_step_height",
+        "level": 2,
+        "aspects": {
+            "honing": 2
+        },
+        "group": "light_step_height",
+        "integrity": -1,
+        "attributes": {
+            "forge:step_height_addition": 1.0
+        }
+    },
+    {
+        "key": "tetra:light_step_height",
+        "level": 3,
+        "aspects": {
+            "honing": 3
+        },
+        "group": "light_step_height",
+        "integrity": -1,
+        "attributes": {
+            "forge:step_height_addition": 1.5
+        }
+    }
+]

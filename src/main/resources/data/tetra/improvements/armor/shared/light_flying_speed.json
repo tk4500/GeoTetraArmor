@@ -1,0 +1,62 @@
+[
+    {
+        "key": "tetra:light_flying_speed",
+        "level": 1,
+        "aspects": {
+            "honing": 1
+        },
+        "group": "light_flying_speed",
+        "integrity": -1,
+        "attributes": {
+            "generic.flying_speed": 0.05
+        }
+    },
+    {
+        "key": "tetra:light_flying_speed",
+        "level": 2,
+        "aspects": {
+            "honing": 2
+        },
+        "group": "light_flying_speed",
+        "integrity": -1,
+        "attributes": {
+            "generic.flying_speed": 0.1
+        }
+    },
+    {
+        "key": "tetra:light_flying_speed",
+        "level": 3,
+        "aspects": {
+            "honing": 3
+        },
+        "group": "light_flying_speed",
+        "integrity": -1,
+        "attributes": {
+            "generic.flying_speed": 0.15
+        }
+    },
+    {
+        "key": "tetra:light_flying_speed",
+        "level": 4,
+        "aspects": {
+            "honing": 4
+        },
+        "group": "light_flying_speed",
+        "integrity": -1,
+        "attributes": {
+            "generic.flying_speed": 0.2
+        }
+    },
+    {
+        "key": "tetra:light_flying_speed",
+        "level": 5,
+        "aspects": {
+            "honing": 5
+        },
+        "group": "light_flying_speed",
+        "integrity": -1,
+        "attributes": {
+            "generic.flying_speed": 0.25
+        }
+    }
+]

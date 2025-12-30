@@ -1,0 +1,90 @@
+{
+    "replace": true,
+    "slots": [
+        "chest/base",
+        "chest/left",
+        "chest/right",
+        "feet/left",
+        "feet/right",
+        "head/base",
+        "legs/belt",
+        "legs/left",
+        "legs/right"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+        "textureX": 0,
+        "textureY": 0
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:vanilla_health": 5
+            }
+        }
+    ],
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "tetra:vanilla_health",
+                "level": 4
+            },
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:module",
+                        "module": "chest/base",
+                        "variant": "vanilla_chest_base/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "chest/left",
+                        "variant": "vanilla_chest_left/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "chest/right",
+                        "variant": "vanilla_chest_right/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "feet/left",
+                        "variant": "vanilla_feet_left/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "feet/right",
+                        "variant": "vanilla_feet_right/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "head/base",
+                        "variant": "vanilla_head_base/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "legs/belt",
+                        "variant": "vanilla_legs_belt/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "legs/left",
+                        "variant": "vanilla_legs_left/"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "legs/right",
+                        "variant": "vanilla_legs_right/"
+                    }
+                ]
+            }
+        ]
+    }
+}

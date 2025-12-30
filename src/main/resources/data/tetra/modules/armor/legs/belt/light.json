@@ -30,6 +30,13 @@
                 "armor",
                 "armor_legs"
             ],
+            "tags": [
+                "forge:leggings",
+                "forge:armor/leggings",
+                "forge:armor",
+                "forge:armors",
+                "tetra:light"
+            ],
             "extract": {
                 "primaryAttributes": {
                     "minecraft:generic.armor": 0.03866,
