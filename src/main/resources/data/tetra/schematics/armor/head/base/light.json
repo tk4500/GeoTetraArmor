@@ -1,0 +1,37 @@
+{
+    "replace": true,
+    "slots": [
+        "head/base"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+        "textureX": 176,
+        "textureY": 0
+    },
+    "hone": false,
+    "rarity": "basic",
+    "applicableMaterials": [
+        "tetra:wood/",
+        "tetra:fabric/",
+        "tetra:fibre/",
+        "tetra:skin/",
+        "tetra:bone/"
+    ],
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:fabric/",
+                "tetra:fibre/",
+                "tetra:skin/",
+                "tetra:bone/"
+            ],
+            "countFactor": 3,
+            "moduleKey": "armor/head/base/light",
+            "moduleVariant": "light_head_base/",
+            "countOffset": -1
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "chest/right"
+    ],
+    "improvements": [
+        "tetra:armor/shared/",
+        "tetra:shared"
+    ],
+    "variants": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:fabric/",
+                "tetra:fibre/",
+                "tetra:skin/",
+                "tetra:bone/"
+            ],
+            "key": "light_chest_right/",
+            "aspects": {
+                "armor": 2,
+                "armor_chest": 2,
+                "wearable": 2,
+                "breakable": 2,
+                "light": 1
+            },
+            "tags": [
+                "forge:chestplates",
+                "forge:armor/chestplates",
+                "forge:armor",
+                "forge:armors",
+                "tetra:light"
+            ],
+            "durability": 8,
+            "integrity": 2,
+            "contexts": [
+                "armor",
+                "armor_chest"
+            ],
+            "extract": {
+                "primaryAttributes": {
+                    "minecraft:generic.armor": 0.07905,
+                    "minecraft:generic.armor_toughness": 0.01935
+                },
+                "secondaryAttributes": {
+                    "minecraft:generic.armor": -0.06712,
+                    "minecraft:generic.armor_toughness": -0.15305
+                },
+                "tertiaryAttributes": {
+                    "minecraft:generic.armor": 0.38182,
+                    "minecraft:generic.armor_toughness": 0.20915
+                },
+                "primaryEffects": {},
+                "secondaryEffects": {},
+                "tertiaryEffects": {},
+                "durability": 1.2,
+                "integrity": 4,
+                "magicCapacity": 4,
+                "glyph": {
+                    "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+                    "textureX": 16,
+                    "textureY": 0
+                },
+                "availableTextures": [
+                    "right"
+                ],
+                "models": [
+                    {
+                        "type": "gecko",
+                        "location": "geotetraarmor:item/armor/vanilla/"
+                    },
+                    {
+                        "location": "geotetraarmor:item/module/armor/chest/"
+                    }
+                ]
+            },
+            "durabilityMultiplier": 1,
+            "attributes": {
+                "**generic.movement_speed": 0.1,
+                "**forge:swim_speed": 0.1,
+                "**generic.knockback_resistance": -0.05
+            }
+        }
+    ]
+}

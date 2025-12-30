@@ -1,30 +1,36 @@
 {
-  "replace": true,
-  "slots": [
-    "legs/belt"
-  ],
-  "materialSlotCount": 1,
-  "displayType": "major",
-  "glyph": {
-    "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
-    "textureX": 112,
-    "textureY": 0
-  },
-  "outcomes": [
-    {
-      "materials": [
-        "tetra:wood/",
-        "tetra:gem/",
+    "replace": true,
+    "slots": [
+        "legs/belt"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+        "textureX": 112,
+        "textureY": 0
+    },
+    "hone": false,
+    "rarity": "basic",
+    "applicableMaterials": [
+        "tetra:stone/",
         "tetra:metal/",
-        "tetra:bone/",
-        "tetra:fabric/",
-        "tetra:fibre/",
-        "tetra:skin/",
-        "tetra:scale/"
-      ],
-      "countFactor": 2,
-      "moduleKey": "armor/legs/belt/heavy",
-      "moduleVariant": "heavy_legs_belt/"
-    }
-  ]
+        "tetra:scale/",
+        "tetra:gem/"
+    ],
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:stone/",
+                "tetra:metal/",
+                "tetra:scale/",
+                "tetra:gem/"
+            ],
+            "countFactor": 3,
+            "moduleKey": "armor/legs/belt/heavy",
+            "moduleVariant": "heavy_legs_belt/",
+            "countOffset": 2,
+            "toolOffset": 1
+        }
+    ]
 }

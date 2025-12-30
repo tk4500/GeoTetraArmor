@@ -10,17 +10,27 @@
         "textureX": 0,
         "textureY": 0
     },
+    "hone": false,
+    "rarity": "basic",
+    "applicableMaterials": [
+        "tetra:stone/",
+        "tetra:metal/",
+        "tetra:scale/",
+        "tetra:gem/"
+    ],
     "outcomes": [
         {
             "materials": [
-                "tetra:wood/",
-                "tetra:gem/",
+                "tetra:stone/",
                 "tetra:metal/",
-                "tetra:bone/"
+                "tetra:scale/",
+                "tetra:gem/"
             ],
-            "countFactor": 2,
+            "countFactor": 3,
             "moduleKey": "armor/chest/left/heavy",
-            "moduleVariant": "heavy_chest_left/"
+            "moduleVariant": "heavy_chest_left/",
+            "countOffset": 2,
+            "toolOffset": 1
         }
     ]
 }

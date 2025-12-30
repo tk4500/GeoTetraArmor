@@ -1,0 +1,47 @@
+[
+    {
+        "key": "tetra:vanilla_health",
+        "level": 1,
+        "group": "vanilla_health",
+        "integrity": -1,
+        "attributes": {
+            "generic.max_health": 2.0
+        }
+    },
+    {
+        "key": "tetra:vanilla_health",
+        "level": 2,
+        "group": "vanilla_health",
+        "integrity": -1,
+        "attributes": {
+            "generic.max_health": 4.0
+        }
+    },
+    {
+        "key": "tetra:vanilla_health",
+        "level": 3,
+        "group": "vanilla_health",
+        "integrity": -1,
+        "attributes": {
+            "generic.max_health": 6.0
+        }
+    },
+    {
+        "key": "tetra:vanilla_health",
+        "level": 4,
+        "group": "vanilla_health",
+        "integrity": -1,
+        "attributes": {
+            "generic.max_health": 8.0
+        }
+    },
+    {
+        "key": "tetra:vanilla_health",
+        "level": 5,
+        "group": "vanilla_health",
+        "integrity": -1,
+        "attributes": {
+            "generic.max_health": 10.0
+        }
+    }
+]

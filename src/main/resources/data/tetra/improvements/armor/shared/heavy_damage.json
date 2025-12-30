@@ -1,0 +1,47 @@
+[
+    {
+        "key": "tetra:heavy_damage",
+        "level": 1,
+        "group": "heavy_damage",
+        "integrity": -1,
+        "attributes": {
+            "generic.attack_damage": 0.5
+        }
+    },
+    {
+        "key": "tetra:heavy_damage",
+        "level": 2,
+        "group": "heavy_damage",
+        "integrity": -1,
+        "attributes": {
+            "generic.attack_damage": 1.0
+        }
+    },
+    {
+        "key": "tetra:heavy_damage",
+        "level": 3,
+        "group": "heavy_damage",
+        "integrity": -1,
+        "attributes": {
+            "generic.attack_damage": 1.5
+        }
+    },
+    {
+        "key": "tetra:heavy_damage",
+        "level": 4,
+        "group": "heavy_damage",
+        "integrity": -1,
+        "attributes": {
+            "generic.attack_damage": 2.0
+        }
+    },
+    {
+        "key": "tetra:heavy_damage",
+        "level": 5,
+        "group": "heavy_damage",
+        "integrity": -1,
+        "attributes": {
+            "generic.attack_damage": 2.5
+        }
+    }
+]

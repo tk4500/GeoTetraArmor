@@ -10,10 +10,24 @@
         "textureX": 192,
         "textureY": 0
     },
+    "hone": false,
+    "rarity": "basic",
+    "applicableMaterials": [
+        "tetra:wood/",
+        "tetra:stone/",
+        "tetra:gem/",
+        "tetra:metal/",
+        "tetra:bone/",
+        "tetra:fabric/",
+        "tetra:fibre/",
+        "tetra:skin/",
+        "tetra:scale/"
+    ],
     "outcomes": [
         {
             "materials": [
                 "tetra:wood/",
+                "tetra:stone/",
                 "tetra:gem/",
                 "tetra:metal/",
                 "tetra:bone/",
@@ -23,7 +37,8 @@
                 "tetra:scale/"
             ],
             "moduleKey": "armor/feet/left/vanilla",
-            "moduleVariant": "vanilla_feet_left/"
+            "moduleVariant": "vanilla_feet_left/",
+            "countFactor": 3
         }
     ]
 }

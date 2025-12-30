@@ -1,0 +1,37 @@
+{
+    "replace": true,
+    "slots": [
+        "legs/belt"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+        "textureX": 112,
+        "textureY": 0
+    },
+    "hone": false,
+    "rarity": "basic",
+    "applicableMaterials": [
+        "tetra:wood/",
+        "tetra:fabric/",
+        "tetra:fibre/",
+        "tetra:skin/",
+        "tetra:bone/"
+    ],
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:fabric/",
+                "tetra:fibre/",
+                "tetra:skin/",
+                "tetra:bone/"
+            ],
+            "countFactor": 3,
+            "moduleKey": "armor/legs/belt/light",
+            "moduleVariant": "light_legs_belt/",
+            "countOffset": -1
+        }
+    ]
+}

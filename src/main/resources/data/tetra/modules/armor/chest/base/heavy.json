@@ -1,70 +1,85 @@
 {
-  "replace": true,
-  "type": "tetra:basic_major_module",
-  "slots": [
-    "chest/base"
-  ],
-  "improvements": [
-    "tetra:armor/shared/"
-  ],
-  "variants": [
-    {
-      "materials": [
-        "tetra:wood/",
-        "tetra:gem/",
-        "tetra:metal/",
-        "tetra:bone/"
-      ],
-      "key": "heavy_chest_base/",
-      "aspects": {
-        "armor": 2,
-        "armor_chest": 2,
-        "wearable": 2,
-        "breakable": 2
-      },
-      "durability": 7,
-      "integrity": 1,
-      "contexts": ["armor", "armor_chest"],
-      "attributes": {
-        "**minecraft:movement_speed": -0.05
-      },
-      "extract": {
-        "primaryAttributes": {
-          "minecraft:generic.armor": 0.3714,
-          "minecraft:generic.armor_toughness": 0.0857
-        },
-        "secondaryAttributes": {
-          "minecraft:generic.armor": -0.1611,
-          "minecraft:generic.armor_toughness": -0.6557
-        },
-        "tertiaryAttributes": {
-          "minecraft:generic.armor": 0.9164,
-          "minecraft:generic.armor_toughness": 0.9038
-        },
-        "primaryEffects": {},
-        "secondaryEffects": {},
-        "tertiaryEffects": {},
-        "durability": 0.3,
-        "integrity": 1,
-        "magicCapacity": 1,
-        "glyph": {
-          "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
-          "textureX": 48,
-          "textureY": 0
-        },
-        "availableTextures": [
-          "base"
-        ],
-        "models": [
-          {
-            "type": "gecko",
-            "location": "geotetraarmor:item/armor/heavy/"
-          },
-          {
-            "location": "geotetraarmor:item/module/armor/chest/"
-          }
-        ]
-      }
-    }
-  ]
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "chest/base"
+    ],
+    "improvements": [
+        "tetra:armor/shared/",
+        "tetra:shared"
+    ],
+    "variants": [
+        {
+            "materials": [
+                "tetra:stone/",
+                "tetra:metal/",
+                "tetra:scale/",
+                "tetra:gem/"
+            ],
+            "durability": 2,
+            "durabilityMultiplier": 4,
+            "integrity": 2,
+            "key": "heavy_chest_base/",
+            "aspects": {
+                "armor": 2,
+                "armor_chest": 2,
+                "wearable": 2,
+                "breakable": 2,
+                "heavy": 1
+            },
+            "tags": [
+                "forge:chestplates",
+                "forge:armor/chestplates",
+                "forge:armor",
+                "forge:armors",
+                "tetra:heavy"
+            ],
+            "contexts": [
+                "armor",
+                "armor_chest"
+            ],
+            "extract": {
+                "primaryAttributes": {
+                    "generic.armor": 0.23715,
+                    "generic.armor_toughness": 0.1162
+                },
+                "secondaryAttributes": {
+                    "generic.armor": -0.20145,
+                    "generic.armor_toughness": -0.9182
+                },
+                "tertiaryAttributes": {
+                    "generic.armor": 1.14555,
+                    "generic.armor_toughness": 1.255
+                },
+                "primaryEffects": {},
+                "secondaryEffects": {},
+                "tertiaryEffects": {},
+                "durability": 0.15,
+                "integrity": 1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+                    "textureX": 48,
+                    "textureY": 0
+                },
+                "availableTextures": [
+                    "base"
+                ],
+                "models": [
+                    {
+                        "type": "gecko",
+                        "location": "geotetraarmor:item/armor/heavy/"
+                    },
+                    {
+                        "location": "geotetraarmor:item/module/armor/chest/"
+                    }
+                ]
+            },
+            "attributes": {
+                "**generic.movement_speed": -0.05,
+                "**generic.knockback_resistance": 0.05,
+                "**forge:entity_gravity": 0.1
+            }
+        }
+    ]
 }

@@ -1,0 +1,37 @@
+[
+    {
+        "key": "tetra:reinforce_durability",
+        "level": 1,
+        "group": "reinforce_durability",
+        "integrity": -1,
+        "durabilityMultiplier": 0.1
+    },
+    {
+        "key": "tetra:reinforce_durability",
+        "level": 2,
+        "group": "reinforce_durability",
+        "integrity": -1,
+        "durabilityMultiplier": 0.2
+    },
+    {
+        "key": "tetra:reinforce_durability",
+        "level": 3,
+        "group": "reinforce_durability",
+        "integrity": -1,
+        "durabilityMultiplier": 0.3
+    },
+    {
+        "key": "tetra:reinforce_durability",
+        "level": 4,
+        "group": "reinforce_durability",
+        "integrity": -1,
+        "durabilityMultiplier": 0.4
+    },
+    {
+        "key": "tetra:reinforce_durability",
+        "level": 5,
+        "group": "reinforce_durability",
+        "integrity": -1,
+        "durabilityMultiplier": 0.5
+    }
+]

@@ -5,22 +5,31 @@
     ],
     "materialSlotCount": 1,
     "displayType": "major",
+    "rarity": "basic",
     "glyph": {
         "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
         "textureX": 48,
         "textureY": 0
     },
+    "applicableMaterials": [
+        "tetra:stone/",
+        "tetra:metal/",
+        "tetra:scale/",
+        "tetra:gem/"
+    ],
     "outcomes": [
         {
             "materials": [
-                "tetra:wood/",
-                "tetra:gem/",
+                "tetra:stone/",
                 "tetra:metal/",
-                "tetra:bone/"
+                "tetra:scale/",
+                "tetra:gem/"
             ],
             "countFactor": 3,
             "moduleKey": "armor/chest/base/heavy",
-            "moduleVariant": "heavy_chest_base/"
+            "moduleVariant": "heavy_chest_base/",
+            "countOffset": 2,
+            "toolOffset": 1
         }
     ]
 }

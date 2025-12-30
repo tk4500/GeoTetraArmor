@@ -1,61 +1,85 @@
 {
-  "replace": true,
-  "type": "tetra:basic_major_module",
-  "slots": ["head/base"],
-  "improvements": [
-    "tetra:armor/shared/"
-  ],
-  "variants": [
-    {
-      "materials": [ "tetra:wood/","tetra:gem/", "tetra:metal/", "tetra:bone/" ],
-      "key": "heavy_head_base/",
-      "aspects": {
-        "armor": 2,
-        "armor_head": 2,
-        "wearable": 2,
-        "breakable": 2
-      },
-      "durability": 7,
-      "integrity": 1,
-      "contexts": ["armor", "armor_head"],
-      "attributes": {
-        "**minecraft:movement_speed": -0.05
-      },
-      "extract": {
-        "primaryAttributes": {
-          "minecraft:generic.armor": 0.3093,
-          "minecraft:generic.armor_toughness": 0.5046
-        },
-        "secondaryAttributes": {
-          "minecraft:generic.armor": -0.0423,
-          "minecraft:generic.armor_toughness": -1.3848
-        },
-        "tertiaryAttributes": {
-          "minecraft:generic.armor": 0.5381,
-          "minecraft:generic.armor_toughness": 1.2463
-        },
-        "primaryEffects":{},
-        "secondaryEffects": {},
-        "tertiaryEffects": {},
-        "durability": 0.3,
-        "integrity": 1,
-        "magicCapacity": 1,
-        "glyph": {
-          "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
-          "textureX": 176,
-          "textureY": 0
-        },
-        "availableTextures": ["base"],
-        "models": [
-          {
-            "type": "gecko",
-            "location": "geotetraarmor:item/armor/heavy/"
-          },
-          {
-            "location": "geotetraarmor:item/module/armor/head/"
-          }
-        ]
-      }
-    }
-  ]
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "head/base"
+    ],
+    "improvements": [
+        "tetra:armor/shared/",
+        "tetra:shared"
+    ],
+    "variants": [
+        {
+            "materials": [
+                "tetra:stone/",
+                "tetra:metal/",
+                "tetra:scale/",
+                "tetra:gem/"
+            ],
+            "key": "heavy_head_base/",
+            "aspects": {
+                "armor": 2,
+                "armor_head": 2,
+                "wearable": 2,
+                "breakable": 2,
+                "heavy": 1
+            },
+            "tags": [
+                "forge:helmets",
+                "forge:armor/helmets",
+                "forge:armor",
+                "forge:armors",
+                "tetra:heavy"
+            ],
+            "durability": 2,
+            "integrity": 2,
+            "contexts": [
+                "armor",
+                "armor_head"
+            ],
+            "extract": {
+                "primaryAttributes": {
+                    "minecraft:generic.armor": 1.0679,
+                    "minecraft:generic.armor_toughness": 2.37227
+                },
+                "secondaryAttributes": {
+                    "minecraft:generic.armor": -0.65772,
+                    "minecraft:generic.armor_toughness": -2.83917
+                },
+                "tertiaryAttributes": {
+                    "minecraft:generic.armor": 0.05328,
+                    "minecraft:generic.armor_toughness": 0.30917
+                },
+                "durability": 0.15,
+                "integrity": 1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+                    "textureX": 176,
+                    "textureY": 0
+                },
+                "availableTextures": [
+                    "base"
+                ],
+                "models": [
+                    {
+                        "type": "gecko",
+                        "location": "geotetraarmor:item/armor/heavy/"
+                    },
+                    {
+                        "location": "geotetraarmor:item/module/armor/head/"
+                    }
+                ],
+                "primaryEffects": {},
+                "secondaryEffects": {},
+                "tertiaryEffects": {}
+            },
+            "durabilityMultiplier": 4,
+            "attributes": {
+                "**generic.movement_speed": -0.05,
+                "**generic.knockback_resistance": 0.05,
+                "**forge:entity_gravity": 0.1
+            }
+        }
+    ]
 }

@@ -1,0 +1,40 @@
+{
+    "replace": true,
+    "slots": [
+        "chest/base",
+        "chest/left",
+        "chest/right"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+        "textureX": 0,
+        "textureY": 0
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "tetra:heavy_damage"
+                }
+            },
+            {
+                "type": "tetra:aspect",
+                "aspect": "heavy"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "tetra:heavy_damage": 1
+            }
+        }
+    ]
+}

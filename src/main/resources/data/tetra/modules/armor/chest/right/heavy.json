@@ -1,61 +1,85 @@
 {
-  "replace": true,
-  "type": "tetra:basic_major_module",
-  "slots": ["chest/right"],
-  "improvements": [
-    "tetra:armor/shared/"
-  ],
-  "variants": [
-    {
-      "materials": [ "tetra:wood/","tetra:gem/", "tetra:metal/", "tetra:bone/" ],
-      "key": "heavy_chest_right/",
-      "aspects": {
-        "armor": 2,
-        "armor_chest": 2,
-        "wearable": 2,
-        "breakable": 2
-      },
-      "durability": 7,
-      "integrity": 1,
-      "contexts": ["armor", "armor_chest"],
-      "attributes": {
-        "**minecraft:movement_speed": -0.05
-      },
-      "extract": {
-        "primaryAttributes": {
-          "minecraft:generic.armor": 0.2476,
-          "minecraft:generic.armor_toughness": 0.0571
-        },
-        "secondaryAttributes": {
-          "minecraft:generic.armor": -0.1074,
-          "minecraft:generic.armor_toughness": -0.4371
-        },
-        "tertiaryAttributes": {
-          "minecraft:generic.armor": 0.6109,
-          "minecraft:generic.armor_toughness": 0.6025
-        },
-        "primaryEffects":{},
-        "secondaryEffects": {},
-        "tertiaryEffects": {},
-        "durability": 0.3,
-        "integrity": 1,
-        "magicCapacity": 1,
-        "glyph": {
-          "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
-          "textureX": 16,
-          "textureY": 0
-        },
-        "availableTextures": [ "right" ],
-        "models": [
-          {
-            "type": "gecko",
-            "location": "geotetraarmor:item/armor/heavy/"
-          },
-          {
-            "location": "geotetraarmor:item/module/armor/chest/"
-          }
-        ]
-      }
-    }
-  ]
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "chest/right"
+    ],
+    "improvements": [
+        "tetra:armor/shared/",
+        "tetra:shared"
+    ],
+    "variants": [
+        {
+            "materials": [
+                "tetra:stone/",
+                "tetra:metal/",
+                "tetra:scale/",
+                "tetra:gem/"
+            ],
+            "key": "heavy_chest_right/",
+            "aspects": {
+                "armor": 2,
+                "armor_chest": 2,
+                "wearable": 2,
+                "breakable": 2,
+                "heavy": 1
+            },
+            "tags": [
+                "forge:chestplates",
+                "forge:armor/chestplates",
+                "forge:armor",
+                "forge:armors",
+                "tetra:heavy"
+            ],
+            "durability": 2,
+            "integrity": 2,
+            "contexts": [
+                "armor",
+                "armor_chest"
+            ],
+            "extract": {
+                "primaryAttributes": {
+                    "minecraft:generic.armor": 0.1581,
+                    "minecraft:generic.armor_toughness": 0.0774
+                },
+                "secondaryAttributes": {
+                    "minecraft:generic.armor": -0.13425,
+                    "minecraft:generic.armor_toughness": -0.6122
+                },
+                "tertiaryAttributes": {
+                    "minecraft:generic.armor": 0.76365,
+                    "minecraft:generic.armor_toughness": 0.8366
+                },
+                "primaryEffects": {},
+                "secondaryEffects": {},
+                "tertiaryEffects": {},
+                "durability": 0.15,
+                "integrity": 1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureLocation": "geotetraarmor:textures/gui/gui_gta.png",
+                    "textureX": 16,
+                    "textureY": 0
+                },
+                "availableTextures": [
+                    "right"
+                ],
+                "models": [
+                    {
+                        "type": "gecko",
+                        "location": "geotetraarmor:item/armor/heavy/"
+                    },
+                    {
+                        "location": "geotetraarmor:item/module/armor/chest/"
+                    }
+                ]
+            },
+            "durabilityMultiplier": 4,
+            "attributes": {
+                "**generic.movement_speed": -0.05,
+                "**generic.knockback_resistance": 0.05,
+                "**forge:entity_gravity": 0.1
+            }
+        }
+    ]
 }

@@ -1,0 +1,47 @@
+[
+    {
+        "key": "tetra:reinforce_armor",
+        "level": 1,
+        "group": "reinforce_armor",
+        "integrity": -1,
+        "attributes": {
+            "generic.armor": 0.5
+        }
+    },
+    {
+        "key": "tetra:reinforce_armor",
+        "level": 2,
+        "group": "reinforce_armor",
+        "integrity": -1,
+        "attributes": {
+            "generic.armor": 1.0
+        }
+    },
+    {
+        "key": "tetra:reinforce_armor",
+        "level": 3,
+        "group": "reinforce_armor",
+        "integrity": -1,
+        "attributes": {
+            "generic.armor": 1.5
+        }
+    },
+    {
+        "key": "tetra:reinforce_armor",
+        "level": 4,
+        "group": "reinforce_armor",
+        "integrity": -1,
+        "attributes": {
+            "generic.armor": 2.0
+        }
+    },
+    {
+        "key": "tetra:reinforce_armor",
+        "level": 5,
+        "group": "reinforce_armor",
+        "integrity": -1,
+        "attributes": {
+            "generic.armor": 2.5
+        }
+    }
+]

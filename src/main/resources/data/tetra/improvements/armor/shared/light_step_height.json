@@ -1,0 +1,29 @@
+[
+    {
+        "key": "tetra:light_step_height",
+        "level": 1,
+        "group": "light_step_height",
+        "integrity": -1,
+        "attributes": {
+            "forge:step_height": 0.5
+        }
+    },
+    {
+        "key": "tetra:light_step_height",
+        "level": 2,
+        "group": "light_step_height",
+        "integrity": -1,
+        "attributes": {
+            "forge:step_height": 1.0
+        }
+    },
+    {
+        "key": "tetra:light_step_height",
+        "level": 3,
+        "group": "light_step_height",
+        "integrity": -1,
+        "attributes": {
+            "forge:step_height": 1.5
+        }
+    }
+]

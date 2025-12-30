@@ -10,16 +10,27 @@
         "textureX": 192,
         "textureY": 0
     },
+    "hone": false,
+    "rarity": "basic",
+    "applicableMaterials": [
+        "tetra:stone/",
+        "tetra:metal/",
+        "tetra:scale/",
+        "tetra:gem/"
+    ],
     "outcomes": [
         {
             "materials": [
-                "tetra:wood/",
-                "tetra:gem/",
+                "tetra:stone/",
                 "tetra:metal/",
-                "tetra:bone/"
+                "tetra:scale/",
+                "tetra:gem/"
             ],
             "moduleKey": "armor/feet/left/heavy",
-            "moduleVariant": "heavy_feet_left/"
+            "moduleVariant": "heavy_feet_left/",
+            "countFactor": 3,
+            "countOffset": 2,
+            "toolOffset": 1
         }
     ]
 }

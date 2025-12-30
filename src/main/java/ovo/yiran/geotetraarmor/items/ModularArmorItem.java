@@ -55,7 +55,7 @@ public abstract class ModularArmorItem extends ItemModularHandheld implements Ge
         int damage = itemStack.getDamageValue();
         int maxDamage = itemStack.getMaxDamage();
         if (!this.isBroken(damage, maxDamage)) {
-            int reducedAmount = this.getReducedDamage(amount, itemStack, responsibleEntity);
+            int reducedAmount = amount;
             itemStack.hurtAndBreak(amount, responsibleEntity, (player) -> player.broadcastBreakEvent(EquipmentSlot.byTypeAndIndex(EquipmentSlot.Type.ARMOR, slot)));
             //打磨
             tickProgression(responsibleEntity, itemStack, reducedAmount);
